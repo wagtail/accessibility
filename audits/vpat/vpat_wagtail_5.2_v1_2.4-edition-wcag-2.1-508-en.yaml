@@ -1,0 +1,2437 @@
+title: Wagtail Accessibility Conformance Report
+product:
+  name: Wagtail
+  version: "5.2"
+  description: >-
+    A Django content management system focused on flexibility and user
+    experience
+author:
+  name: Thibaud Colas
+  company_name: Torchbox
+  address: ""
+  email: thibaud.colas@torchbox.com
+  phone: ""
+  website: "https://torchbox.com/"
+vendor:
+  name: Thibaud Colas
+  company_name: Wagtail
+  address: ""
+  email: ""
+  phone: ""
+  website: "https://wagtail.org/"
+report_date: 15/12/2023
+last_modified_date: 22/12/2023
+version: 1
+notes: >-
+  Testing based on https://static-wagtail-v5-2.netlify.app/admin/. This report
+  was created based on results of an ATAG 2.0 audit
+  (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit
+  (https://github.com/wagtail/wagtail/discussions/11180), as well as the public
+  record of accessibility issues identified as of December 2023.
+evaluation_methods_used: >
+  Auditing conducted with the WCAG-EM methodology. Specific testing tools
+  employed are Accessibility Insights (Axe) and Pa11y (Axe).
+
+
+  Manual tests included:
+
+
+  - Manual keyboard navigation testing
+
+  - Manual touch navigation testing
+
+  - Manual 400% zoom testing
+
+  - Desktop screen readers: VoiceOver macOS, NVDA
+
+  - Mobile screen readers: VoiceOver iOS, TalkBack
+
+  - Speech recognition: Voice Control
+
+  - Magnification with Apple Zoom
+
+  - WHCM
+legal_disclaimer: ""
+repository: "https://github.com/wagtail/accessibility"
+feedback: "https://github.com/wagtail/accessibility"
+license: CC0-1.0
+related_openacrs: []
+catalog: 2.4-edition-wcag-2.1-508-en
+chapters:
+  success_criteria_level_a:
+    notes: ""
+    disabled: false
+    criteria:
+      - num: 1.1.1
+        components:
+          - name: web
+            adherence:
+              level: partially-supports
+              notes: >-
+                Though Wagtail has alt text options for all images by default,
+                and ways for site implementers to adjust to their needs, some of
+                the default options lack a clear way to mark images as
+                decorative.
+
+
+                See ATAG 2.0 audit:
+                https://wagtail.org/accessibility/atag-audit/#b23-assist-authors-with-managing-alternative-content-for-non-text-content
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so none of the images are decorative and all images
+                have appropriate alt text.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                In the authoring tool, there are a few scenarios in which
+                images’ alt text is present but not programmatically associated
+                with the image.
+
+
+                See ATAG 2.0 audit:
+                https://wagtail.org/accessibility/atag-audit/#a2-editing-views-are-perceivable
+      - num: 1.2.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: There is no audio or video content in Wagtail’s documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: There is no audio or video content in Wagtail’s user interface.
+      - num: 1.2.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: There is no audio or video content in Wagtail’s documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+      - num: 1.2.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: There is no audio or video content in Wagtail’s documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+      - num: 1.3.1
+        components:
+          - name: web
+            adherence:
+              level: partially-supports
+              notes: >-
+                All content created with Wagtail rich text supports 1.3.1 Info
+                and Relationships, except for the built-in blockquote
+                formatting, which lacks a way to programmatically define the
+                cite attribute or element within.
+
+
+                See ATAG 2.0 audit:
+                https://wagtail.org/accessibility/atag-audit/#a34-for-the-authoring-tool-user-interface-enhance-navigation-and-editing-via-content-structure
+                and
+                https://wagtail.org/accessibility/atag-audit/#b24-assist-authors-with-accessible-templates
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so all content is correctly structured with semantic
+                elements.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                There are a few known 1.3.1 issues. See for example
+                https://github.com/wagtail/wagtail/issues/10576, and
+                https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit.
+      - num: 1.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All content authored with Wagtail has a matching visual and DOM
+                order, in all languages.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so visual order and semantic order always match.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                Wagtail has been extensively tested so all content has a visual
+                order matching the semantic order. We are aware of a few issues
+                with layout of admin views for right-to-left languages
+                (https://github.com/wagtail/wagtail/discussions/7793), those
+                issues have ben addressed and the fixes will be released in
+                February 2024 in Wagtail 6.0.
+      - num: 1.3.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                We are aware of one view in the CMS which relies on sensory
+                characteristics too much: revision comparisons
+                (https://github.com/wagtail/wagtail/issues/10576).
+      - num: 1.4.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                We are aware of one view in the CMS which relies on color too
+                much: revision comparisons
+                (https://github.com/wagtail/wagtail/issues/10576).
+      - num: 1.4.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: There is no built-in audio or video support in Wagtail.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: There is no audio or video content in Wagtail documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: >-
+                There is no audio or video content in the Wagtail user
+                interface.
+      - num: 2.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All content created with built-in Wagtail features is
+                keyboard-accessible.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed for keyboard support.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                We are currently aware of a issues with keyboard support:
+
+
+                - https://github.com/wagtail/wagtail/issues/7366, due to be
+                resolved in Wagtail 6.0 in February 2024
+
+                - https://github.com/wagtail/wagtail/issues/5325, with a clear
+                workaround and plans to improve but no due date.
+      - num: 2.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 2.1.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: There are no character key shortcuts in Wagtail documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: >-
+                All keyboard shortcuts in the admin interface rely on modifier
+                keys.
+      - num: 2.2.1
+        components:
+          - name: web
+            adherence:
+              level: partially-supports
+              notes: >-
+                Animated images (GIFs) created with Wagtail currently require
+                extra steps to allow pausing of the content.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: >-
+                There is no moving, blinking, scrolling, or auto-updating in
+                Wagtail documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                Animated images (GIFs) displayed within the CMS currently cannot
+                be paused.
+
+
+                See ATAG 2.0 audit:
+                https://wagtail.org/accessibility/atag-audit/#a33-for-the-authoring-tool-user-interface-help-authors-avoid-flashing-that-could-cause-seizures
+      - num: 2.2.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                The only timing is the session time limit / session cookie
+                expiry, configured to 2 weeks by default.
+
+
+                See ATAG 2.0 audit:
+                https://wagtail.org/accessibility/atag-audit/#a322-timing-adjustable
+      - num: 2.3.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: There are no flashing elements in Wagtail documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: There are no flashing elements in the Wagtail admin interface.
+      - num: 2.4.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: Skip links can be created for all Wagtail content.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All pages of the Wagtail editor guide
+                (https://guide.wagtail.org/) and developer documentation
+                (https://docs.wagtail.org/) provide skip links and navigation
+                "table of content" menus.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                The Wagtail admin interface provides skip links, direct anchor
+                links to page sections, and a "minimap" component to jump
+                directly to a specific form section.
+      - num: 2.4.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                By default, Wagtail-managed pages have a title as set in the
+                CMS.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so every page has a unique title.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                All of the CMS interface has been reviewed so every view has a
+                descriptive title.
+      - num: 2.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All Wagtail-created content uses a matching semantic, visual,
+                and focus order.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so all content has a matching semantic, visual, and
+                focus order.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                The Wagtail admin interface has been extensively reviewed so
+                semantic, visual, and focus order always match.
+      - num: 2.4.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail link content is always user-generated so can be created
+                with enough description. By default, Wagtail link text for pages
+                defaults to the page’s title.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed for content considerations like link text.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                All of the admin interface has been reviewed for content
+                considerations like link text.
+      - num: 2.5.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 2.5.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                The only CMS operation on the down-event is application of rich
+                text formatting options via the toolbar. This is always
+                undo-able.
+      - num: 2.5.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All forms created with Wagtail support setting the text of the
+                label element.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                All interactive elements within the CMS have
+                programmatically-associated text matching the visible label.
+                There is one exception currently identified:
+                https://github.com/wagtail/wagtail/issues/11372.
+      - num: 2.5.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 3.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Page language is managed in the CMS and then reflects on page
+                templates as configured by site implementers.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/)
+                reflects the page’s language across the different versions.
+                Developer documentation is currently english-only.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                Page language is semantically defined based on what language the
+                CMS user has configured.
+      - num: 3.2.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.2.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.3.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Forms created with Wagtail use the aria-describedby and
+                aria-invalid attributes to programmatically identify fields with
+                errors, as per how Django 5.0+ operates.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                There are no form fields that can have input errors in the
+                editor guide or developer documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                Within the CMS, all form fields use visible error messages,
+                aria-describedby, and aria-invalid – except a specific type of
+                field, which does not currently use aria-invalid. This is
+                tracked here: https://github.com/wagtail/wagtail/issues/10300.
+      - num: 3.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All forms created with Wagtail have mandatory labels for all
+                fields, and optional help text.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                There is no content that requires user input in our Editor Guide
+                or developer documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                All form fields requiring input in the CMS have labels. Some
+                also have help text for instructions.
+      - num: 4.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                To the extent of our knowledge, there are no parsing issues
+                affecting CMS users or website visitors.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                To the extent of our knowledge, there are no parsing issues
+                affecting documentation users.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                To the extent of our knowledge, there are no parsing issues
+                affecting CMS users or website visitors.
+      - num: 4.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                There are a few components in the CMS where we are aware of
+                needed improvements:
+                https://github.com/wagtail/wagtail/issues/5411,
+                https://github.com/wagtail/wagtail/issues/10228,
+                https://github.com/wagtail/wagtail/issues/10576,
+                https://github.com/wagtail/wagtail/issues/5408,
+                https://github.com/wagtail/wagtail/issues/5411
+  success_criteria_level_aa:
+    notes: ""
+    disabled: false
+    criteria:
+      - num: 1.2.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.2.5
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.3.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 1.3.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                All input fields of Wagtail-generated forms have
+                programmatically-associated labels, and
+                programmatically-associated help text if set.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All input fields in documentation have
+                programmatically-associated labels.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                All input fields of admin interface forms have
+                programmatically-associated labels, and occasionally also have
+                help text.
+      - num: 1.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so there are no known contrast issues.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                The admin interface’s color theme has been extensively reviewed
+                for color contrast considerations. We’re currently aware of two
+                text contrast issues:
+
+
+                - https://github.com/wagtail/wagtail/issues/10875
+
+                - https://github.com/wagtail/wagtail/issues/5778
+      - num: 1.4.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so there are no known text resizing issues.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                To the extent of our knowledge, all text in the admin interface
+                can be resized.
+      - num: 1.4.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: There are no images of text created by Wagtail itself.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                There are no images of text in our Editor Guide or developer
+                documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                There are no images of text inside the CMS, except for the
+                Wagtail logotype on the login screen, where presentation as per
+                our branding is essential.
+      - num: 1.4.10
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 1.4.11
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so there are no known contrast issues.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                We’re aware of one issue with non-text contrast
+                (https://github.com/wagtail/wagtail/issues/11306).
+      - num: 1.4.12
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so there are text styling issues.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 1.4.13
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                Areas of the CMS interface which rely on content on hover or
+                focus, only do so for non-essential information, and the the
+                appearing content is persistent until hover/focus moves away
+                from the component.
+      - num: 2.4.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail encourages site implementers to reply on tree-based page
+                navigation, and implement search functionality. Pages also have
+                "next sibling" and "previous sibling" capabilities.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) supports
+                three means of navigation:
+
+
+                - Tree-based menu navigation
+
+                - Next page and "previous page" navigation
+
+                - Site-wide search
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: |-
+                The CMS interface supports the following means of navigation:
+
+                - Admin search
+                - Tree-based navigation / main menu navigation
+                - Breadcrumbs
+                - Dashboard "latest work" navigation
+                - "Edit bird" / Wagtail user bar navigation from the live site
+      - num: 2.4.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail supports generating headings via rich text, and
+                StreamField
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) has been
+                reviewed so there is appropriate heading density.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                All forms within the admin interface have been audited to have
+                appropriate heading density.
+      - num: 2.4.7
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.1.2
+        components:
+          - name: web
+            adherence:
+              level: partially-supports
+              notes: >-
+                Wagtail has little to no opinion on web page implementation, so
+                this can be implemented site-by-site. In the future, we intend
+                to support this directly as a core feature
+                (https://github.com/wagtail/wagtail/issues/4694).
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                All of the Wagtail editor guide (https://guide.wagtail.org/) and
+                developer documentation (https://docs.wagtail.org/) avoids
+                mixing content between multiple languages.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                When mixing content between multiple languages inside the CMS,
+                there is currently no use of the lang attribute to identify
+                language of parts.
+
+
+                See:
+
+
+                - https://github.com/wagtail/wagtail/issues/11375
+
+                - https://github.com/wagtail/wagtail/issues/11376
+      - num: 3.2.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.2.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.3.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail makes any suggestions upon input error available via
+                Django’s form validation mechanism, with a relevant error
+                message based on the specific error.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: There is no form validation within Wagtail documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail’s admin interface makes any suggestions upon input error
+                available via Django’s form validation mechanism, with a
+                relevant error message based on the specific error.
+      - num: 3.3.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: All Wagtail-generated forms support data validation.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: There are no forms with validation needed within documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail implements multiple ways to prevent those errors:
+
+
+                1. All content entry in the CMS is automatically validated for
+                correctness
+
+                2. For page content and opt-in for other content types, all
+                editing actions are reversible
+
+                3. For page content and opt-in for other content types, all
+                editing actions can go through a multi-step publication workflow
+                with reviews
+                (https://guide.wagtail.org/en-latest/how-to-guides/configure-workflows-for-moderation/).
+
+
+                For legal and financial requirements specifically, Wagtail
+                supports turning on different publication workflows for
+                different pages or sections of a site.
+      - num: 4.1.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail does not mandate the use of status messages in
+                Wagtail-created content, but supports creating them as needed.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: >-
+                The live search in the Wagtail editor guide documentation lacks
+                programmatically-identifiable status messages.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: Wagtail’s status messages use the role attribute
+  success_criteria_level_aaa:
+    notes: ""
+    disabled: false
+    criteria:
+      - num: 1.2.6
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.2.7
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.2.8
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.2.9
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.3.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail only uses semantic HTML elements as part of its web page
+                output.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 1.4.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: We target lower contrast levels than this SC requires.
+          - name: software
+            adherence:
+              level: does-not-support
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                We target lower contrast levels than this SC requires. There are
+                simple ways to create custom color themes for the admin
+                interface should this be a must have.
+      - num: 1.4.7
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ""
+      - num: 1.4.8
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: ""
+      - num: 1.4.9
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: partially-supports
+              notes: >-
+                The Wagtail logotype present in the documentation would fail
+                this.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                The Wagtail logotype present in the login screen would fail
+                this.
+      - num: 2.1.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: See 2.1.1 Keyboard
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: See 2.1.1 Keyboard
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: See 2.1.1 Keyboard
+      - num: 2.2.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 2.2.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: >-
+                There are no interruptions in the editor guide or developer
+                documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: >-
+                Though the admin interface occasionally contains server updates
+                or other kinds of  system-driven notifications, none of them
+                will interrupt the user’s activities.
+      - num: 2.2.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail does not enforce any specific authentication behavior on
+                website pages.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: There is no authentication in the documentation.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: ""
+      - num: 2.2.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                The default is 2 weeks of inactivity to lose data. If the
+                timeout is lower, Wagtail is missing a warning on data loss. See
+                https://github.com/wagtail/wagtail/issues/2199.
+      - num: 2.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 2.3.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific styles in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                All of the animation can be disabled with the
+                prefers-reduced-motion media query,  but there is no CMS
+                setting.
+      - num: 2.4.8
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: partially-supports
+              notes: >-
+                Wagtail uses breadcrumb components across the admin interface
+                but not all of it:
+                https://github.com/wagtail/wagtail/issues/11366
+      - num: 2.4.9
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: >-
+                A number of links don’t have an understandable purpose without
+                context.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                A number of links don’t have an understandable purpose without
+                context.
+      - num: 2.4.10
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTM in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: All pages contain headings.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: All pages contain headings where sub-sections are present.
+      - num: 2.5.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific CSS in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: >-
+                There are a number of interactive elements that are smaller than
+                the target.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                There are a number of interactive elements that are smaller than
+                the target.
+      - num: 2.5.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.1.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: A high number of unusual words aren’t defined currently.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                Mechanisms to annotate text can be built, but this isn’t
+                built-in functionality.
+      - num: 3.1.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: A high number of abbreviations aren’t defined currently.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                Mechanisms to annotate text can be built, but this isn’t
+                built-in functionality.
+      - num: 3.1.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: A high number of content hasn’t been assessed for reading level.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                Mechanisms to assess text can be built, but this isn’t built-in
+                functionality.
+      - num: 3.1.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: does-not-support
+              notes: A high number of content hasn’t been assessed for reading level.
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                Mechanisms to annotate text can be built, but this isn’t
+                built-in functionality.
+      - num: 3.2.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail doesn’t enforce any specific HTML in its output that
+                would affect this SC.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: ""
+      - num: 3.3.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Wagtail’s form builder supports providing HTML for all form
+                fields.
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: supports
+              notes: All forms in Wagtail provide help text.
+      - num: 3.3.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ""
+          - name: electronic-docs
+            adherence:
+              level: supports
+              notes: ""
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ""
+          - name: authoring-tool
+            adherence:
+              level: does-not-support
+              notes: >-
+                Though a large number of authoring actions are reversible, not
+                all are. See
+                https://wagtail.org/accessibility/atag-audit/#a411-content-changes-reversible-minimum
+  functional_performance_criteria:
+    notes: ""
+    disabled: false
+    criteria:
+      - num: "302.1"
+        components:
+          - name: none
+            adherence:
+              level: partially-supports
+              notes: >-
+                Wagtail actively supports all popular screen readers, though
+                there are a small number of known issues.
+      - num: "302.2"
+        components:
+          - name: none
+            adherence:
+              level: partially-supports
+              notes: >-
+                Wagtail supports Windows High Contrast Mode / Contrast themes,
+                though there are a few known issues.
+      - num: "302.3"
+        components:
+          - name: none
+            adherence:
+              level: partially-supports
+              notes: >-
+                None of the Wagtail admin interface relies on perception of
+                color _except_ for revision comparisons. See
+                https://github.com/wagtail/wagtail/issues/10576.
+      - num: "302.4"
+        components:
+          - name: none
+            adherence:
+              level: not-applicable
+              notes: >-
+                With only built-in functionality, there is no audio element to
+                the CMS admin interface, documentation, or website content.
+      - num: "302.5"
+        components:
+          - name: none
+            adherence:
+              level: not-applicable
+              notes: >-
+                With only built-in functionality, there is no audio element to
+                the CMS admin interface, documentation, or website content.
+      - num: "302.6"
+        components:
+          - name: none
+            adherence:
+              level: not-applicable
+              notes: >-
+                With only built-in functionality, there is no audio element to
+                the CMS admin interface, documentation, or website content.
+      - num: "302.7"
+        components:
+          - name: none
+            adherence:
+              level: not-evaluated
+              notes: ""
+      - num: "302.8"
+        components:
+          - name: none
+            adherence:
+              level: not-evaluated
+              notes: ""
+      - num: "302.9"
+        components:
+          - name: none
+            adherence:
+              level: not-evaluated
+              notes: ""
+  hardware:
+    notes: ""
+    disabled: true
+    criteria:
+      - num: 402.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.2.3
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.2.4
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.2.5
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.3.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 402.3.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "402.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "402.5"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "403.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "404.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "405.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "406.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "407.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.3.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.3.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.3.3
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "407.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "407.5"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "407.6"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "407.7"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.1.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.1.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.3
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.3.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.3.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.3.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 407.8.3.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "408.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "408.3"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "409.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "410.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "411.1"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.3.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.3.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "412.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "412.5"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "412.6"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "412.7"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.8.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.8.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.8.3
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 412.8.4
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 413.1.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 413.1.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 414.1.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 414.1.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 415.1.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 415.1.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+  software:
+    notes: ""
+    disabled: true
+    criteria:
+      - num: 502.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.3
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.4
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.5
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.6
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.7
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.8
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.9
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.10
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.11
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.12
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.13
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 502.3.14
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "502.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "503.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "503.3"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 503.4.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 503.4.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "504.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 504.2.1
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: 504.2.2
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "504.3"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "504.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+  support_documentation_and_services:
+    notes: ""
+    disabled: true
+    criteria:
+      - num: "602.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "602.3"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "602.4"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "603.2"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
+      - num: "603.3"
+        components:
+          - name: none
+            adherence:
+              level: ""
+              notes: ""
