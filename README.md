@@ -7,3 +7,7 @@ This repository stores documentation and working documents relating to accessibi
 ## Accessibility team
 
 View the [next accessibility meeting agenda](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit). View [past accessibility meeting notes](https://github.com/wagtail/wagtail/discussions/11394).
+
+## Audits
+
+- [VPAT reports](./audits/vpat/)

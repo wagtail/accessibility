@@ -1,3 +1,4 @@
 # Audits
 
-- [VPAT reports](./vpat/README.md)
+- [ATAG audits](./atag/)
+- [VPAT reports](./vpat/)
