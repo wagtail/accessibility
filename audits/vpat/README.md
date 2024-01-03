@@ -8,7 +8,16 @@ Wagtail uses VPATs to report on the accessibility of the Wagtail admin interface
 
 ### Wagtail 5.2
 
-VPAT® 2.4 WCAG 2.1 and Revised Section 508 Edition (the current best practice standard in the United States of America), available in multiple formats:
+#### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
+
+The latest VPAT® release (September 2023), with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Current best practice standard in the United States of America. Available in multiple formats:
+
+- [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
+- [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
+- [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.md)
+- [YAML (source) – Wagtail 5.2](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+
+#### VPAT 2.4 WCAG 2.1 and Revised Section 508 Edition
 
 - [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
 - [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
