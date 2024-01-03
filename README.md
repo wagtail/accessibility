@@ -1,4 +1,4 @@
-# Wagtail accessibility
+# [Wagtail accessibility](https://wagtail.github.io/accessibility/)
 
 👋 Join [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) in the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/slack).
 
@@ -12,3 +12,7 @@ View the [next accessibility meeting agenda](https://docs.google.com/document/d/
 
 - [ATAG audits](./audits/atag/)
 - [VPAT reports](./audits/vpat/)
+
+## References
+
+- [Wagtail accessibility statement](https://wagtail.org/accessibility/)

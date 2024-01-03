@@ -1,4 +1,4 @@
-# ATAG audits
+# Wagtail ATAG audits
 
 > The [Authoring Tool Accessibility Guidelines (ATAG) 2.0](https://www.w3.org/TR/ATAG20/) provides guidelines for designing web content authoring tools that are both more accessible to authors with disabilities (Part A) and designed to enable, support, and promote the production of more accessible web content by all authors (Part B).
 

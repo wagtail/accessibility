@@ -1,4 +1,4 @@
-# 2020-2023 meeting notes
+# 2020-2023 Wagtail accessibility team meeting notes
 
 For notes from past meetings from 2024 onwards, see [Accessibility team: meeting updates](https://github.com/wagtail/wagtail/discussions/11394). Meeting notes previously stored on the [Accessibility team wiki page](https://github.com/wagtail/wagtail/wiki/Accessibility-team) are available below.
 

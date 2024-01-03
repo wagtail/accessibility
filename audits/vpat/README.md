@@ -1,10 +1,12 @@
-# VPAT reports
+# Wagtail VPAT reports
 
 > A [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
 
-Wagtail uses VPATs to report on the accessibility of the Wagtail admin interface, as this format is widely recognised in a procurement context.
+Wagtail documents the accessibility of the Wagtail admin interface with VPAT® reports, as this format is widely used in a procurement context.
 
 ## Available reports
+
+To view our latest report in HTML format, go to [wagtail.org/vpat/](https://wagtail.org/vpat/).
 
 ### Wagtail 5.2
 
@@ -23,6 +25,12 @@ The latest VPAT® release (September 2023), with the latest [WCAG 2.2](https://w
 - [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
 - [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.md)
 - [YAML (source) – Wagtail 5.2](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+
+## Other formats
+
+Looking for a VPAT® in another format? Please [request it in GitHub issues](https://github.com/wagtail/accessibility/issues).
+VPAT® templates also exist for [EN 301 549](https://en.wikipedia.org/wiki/EN_301_549), and in an "INT" international variant that covers both Section 508 and EN 301 549.
+We will provide these on request.
 
 ## Generating reports
 
