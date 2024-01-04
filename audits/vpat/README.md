@@ -37,5 +37,5 @@ We will provide these on request.
 We use the [OpenACR Editor](https://gsa.github.io/openacr-editor/) to generate the YAML and HTML, combined with the [OpenACR CLI](https://github.com/GSA/openacr/blob/main/docs/CLI.md) to generate the Markdown:
 
 ```bash
-./node_modules/.bin/ts-node src/openacr.ts output -f vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml -c catalog/2.4-edition-wcag-2.1-508-en.yaml -o ./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.md
+./node_modules/.bin/ts-node src/openacr.ts output -f vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.yaml -c catalog/2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.md
 ```
