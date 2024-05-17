@@ -1,0 +1,142 @@
+{
+  "projectName": "wagtail",
+  "projectOwner": "wagtail",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Scotchester",
+      "name": "Scott Cranfill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1044670?v=4",
+      "profile": "https://jellybeans.lol/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "thibaudcolas",
+      "name": "Thibaud Colas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/877585?v=4",
+      "profile": "https://thib.me/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "jessemenn",
+      "name": "Jesse Menn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1834167?v=4",
+      "profile": "https://jessemenn.com/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "Stormheg",
+      "name": "Storm Heg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13856515?v=4",
+      "profile": "https://github.com/Stormheg",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "SaptakS",
+      "name": "Saptak Sengupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9530293?v=4",
+      "profile": "https://saptaks.website/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "janehughes",
+      "name": "janehughes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8680557?v=4",
+      "profile": "https://github.com/janehughes",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "albinazs",
+      "name": "Albina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51043550?v=4",
+      "profile": "https://github.com/albinazs",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "laymonage",
+      "name": "sag​e",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379424?v=4",
+      "profile": "https://laymonage.com/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "Toriasdesign",
+      "name": "Victoria Ottah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82820329?v=4",
+      "profile": "https://www.behance.net/toriannenna",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "activus-d",
+      "name": "Damilola Oladele",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98895460?v=4",
+      "profile": "https://linktr.ee/damilola_oladele",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "waju-ire",
+      "name": "Ahmed Olanrewaju Olaitan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81704192?v=4",
+      "profile": "https://github.com/waju-ire",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "shyusu4",
+      "name": "Sherry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106587342?v=4",
+      "profile": "https://github.com/shyusu4",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "Morsey187",
+      "name": "Ben Morse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35934884?v=4",
+      "profile": "https://gitlab.com/Morsey187",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "yigakpoa",
+      "name": "Yigakpoa Samuel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99066793?v=4",
+      "profile": "https://github.com/yigakpoa",
+      "contributions": [
+        "a11y"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
