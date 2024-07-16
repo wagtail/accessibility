@@ -49,6 +49,13 @@ View the [next accessibility meeting agenda](https://docs.google.com/document/d/
 
 Past members: Andreas Bernacca (June 2020 – January 2021), Anuja Raj (June 2022 – September 2022), Kyle Bayliss (February 2021 – February 2023), Joshua Munn (December 2022 – February 2023)
 
+### Team reports
+
+- 2023-12-13: [Wagtail accessibility in 2023 and beyond](https://wagtail.org/blog/wagtail-accessibility-in-2023-and-beyond/).
+- 2023-05-15: [Wagtail accessibility statistics for GAAD 2023](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2023/).
+- 2022-02-28: [State of Wagtail’s accessibility](https://wagtail.org/blog/state-of-wagtail-accessibility/).
+- 2021-02-24: [Accessibility team reloaded](https://wagtail.org/blog/accessibility-team-reloaded/).
+
 ## References
 
 - [Wagtail accessibility statement](https://wagtail.org/accessibility/)
