@@ -4,6 +4,10 @@
 
 This repository stores documentation and working documents relating to accessibility efforts in Wagtail.
 
+## Accessibility for Wagtail users
+
+Have a look at the [accessibility page on wagtail.org](https://wagtail.org/accessibility/), and the developer docs’ [Accessibility considerations](https://docs.wagtail.org/en/stable/advanced_topics/accessibility_considerations.html).
+
 ## Audits
 
 - [ATAG audits](./audits/atag/)
