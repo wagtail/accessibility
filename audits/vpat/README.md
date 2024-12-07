@@ -1,12 +1,23 @@
-# Wagtail VPAT reports
+# Wagtail VPAT / ACR reports
 
-> A [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
+> An Accessibility Conformance Report or [Voluntary Product Accessibility Template (VPAT®)](https://www.section508.gov/sell/vpat/) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
 
-Wagtail documents the accessibility of the Wagtail admin interface with VPAT® reports, as this format is widely used in a procurement context.
+Wagtail documents the accessibility of the Wagtail admin interface with ACR / VPAT® reports, as this format is widely used in a procurement context.
 
 ## Available reports
 
 To view our latest report in HTML format, go to [wagtail.org/vpat/](https://wagtail.org/vpat/).
+
+### Wagtail 6.3
+
+#### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
+
+The latest VPAT® release (September 2023), with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Current best practice standard in the United States of America. Available in multiple formats:
+
+- [HTML – Wagtail 6.3](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
+- [HTML (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
+- [Markdown (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md)
+- [YAML (source) – Wagtail 6.3](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
 
 ### Wagtail 5.2
 

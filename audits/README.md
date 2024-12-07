@@ -1,7 +1,7 @@
 # Audits
 
 - [ATAG audits](./atag/)
-- [VPAT reports](./vpat/)
+- [VPAT / ACR reports](./vpat/)
 
 ## Current issues backlogs
 
