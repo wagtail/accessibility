@@ -10,7 +10,7 @@ For Wagtail, as an authoring tool, ATAG is the most relevant standard to follow.
 
 ATAG 2.0, available in multiple formats:
 
-- [HTML – Wagtail 5.1](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_6.3.html)
+- [HTML – Wagtail 6.3](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_6.3.html)
 - [Markdown (Source) - Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/atag/atag_wagtail_6.3.md)
 - [HTML – Wagtail 6.3, ATAG Report Tool format](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_6.3_atag-report-tool.html)
 - [JSON – Wagtail 6.3, ATAG Report Tool format](./atag_wagtail_6.3_atag-report-tool.json)
