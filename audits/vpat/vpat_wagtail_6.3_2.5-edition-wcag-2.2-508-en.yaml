@@ -68,10 +68,10 @@ chapters:
             adherence:
               level: supports
               notes: >-
-                Though Wagtail has alt text options for all images by default,
-                and ways for site implementers to adjust to their needs, some of
-                the default options lack a clear way to mark images as
-                decorative.
+                Wagtail has alt text options for all images by default,
+                and ways for site implementers to adjust to their needs.
+                The default options offer clear ways to manage alt text
+                in context.
 
 
                 See ATAG 2.0 audit:
@@ -157,12 +157,10 @@ chapters:
         components:
           - name: web
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
                 All content created with Wagtail rich text supports 1.3.1 Info
-                and Relationships, except for the built-in blockquote
-                formatting, which lacks a way to programmatically define the
-                cite attribute or element within.
+                and Relationships.
 
 
                 See ATAG 2.0 audit:
@@ -209,14 +207,11 @@ chapters:
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
                 Wagtail has been extensively tested so all content has a visual
-                order matching the semantic order. We are aware of a few issues
-                with layout of admin views for right-to-left languages
-                (https://github.com/wagtail/wagtail/discussions/7793), those
-                issues have ben addressed and the fixes will be released in
-                February 2024 in Wagtail 6.0.
+                order matching the semantic order. This is both for left-to-right
+                and right-to-left languages.
       - num: 1.3.3
         components:
           - name: web
@@ -302,11 +297,7 @@ chapters:
             adherence:
               level: partially-supports
               notes: >-
-                We are currently aware of a issues with keyboard support:
-
-
-                - https://github.com/wagtail/wagtail/issues/7366, due to be
-                resolved in Wagtail 6.0 in February 2024
+                We are currently aware of a few issues with keyboard support:
 
                 - https://github.com/wagtail/wagtail/issues/5325, with a clear
                 workaround and plans to improve but no due date.
@@ -577,12 +568,10 @@ chapters:
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
                 All interactive elements within the CMS have
                 programmatically-associated text matching the visible label.
-                There is one exception currently identified:
-                https://github.com/wagtail/wagtail/issues/11372.
       - num: 2.5.4
         components:
           - name: web
@@ -690,7 +679,7 @@ chapters:
               notes: >-
                 Forms created with Wagtail use the aria-describedby and
                 aria-invalid attributes to programmatically identify fields with
-                errors, as per how Django 5.0+ operates.
+                errors, as per how Django 5.1+ operates.
           - name: electronic-docs
             adherence:
               level: supports
@@ -909,16 +898,11 @@ chapters:
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
                 The admin interface’s color theme has been extensively reviewed
-                for color contrast considerations. We’re currently aware of two
-                text contrast issues:
-
-
-                - https://github.com/wagtail/wagtail/issues/10875
-
-                - https://github.com/wagtail/wagtail/issues/5778
+                for color contrast considerations. We’re not currently aware of any
+                text contrast issues, though occasionally more are found.
       - num: 1.4.4
         components:
           - name: web
@@ -1008,10 +992,10 @@ chapters:
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
-                We’re aware of one issue with non-text contrast
-                (https://github.com/wagtail/wagtail/issues/11306).
+                We’re not aware of any issue with non-text contrast,
+                though new issues are occasionally found.
       - num: 1.4.12
         components:
           - name: web
@@ -1076,11 +1060,8 @@ chapters:
                 developer documentation (https://docs.wagtail.org/) supports
                 three means of navigation:
 
-
                 - Tree-based menu navigation
-
                 - Next page and "previous page" navigation
-
                 - Site-wide search
           - name: software
             adherence:
@@ -1201,11 +1182,10 @@ chapters:
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
-                There is a known issue with the anchors of collapsible panels
-                on mobile viewports. See:
-                https://github.com/wagtail/wagtail/issues/11411
+                There are no known issues with target size currently, though new
+                issues are occasionally found.
       - num: 3.1.2
         components:
           - name: web
@@ -1235,12 +1215,9 @@ chapters:
                 there is currently no use of the lang attribute to identify
                 language of parts.
 
-
                 See:
 
-
                 - https://github.com/wagtail/wagtail/issues/11375
-
                 - https://github.com/wagtail/wagtail/issues/11376
       - num: 3.2.3
         components:
@@ -1328,16 +1305,14 @@ chapters:
 
 
                 1. All content entry in the CMS is automatically validated for
-                correctness
-
+                correctness.
                 2. For page content and opt-in for other content types, all
-                editing actions are reversible
+                editing actions are reversible.
 
                 3. For page content and opt-in for other content types, all
                 editing actions can go through a multi-step publication workflow
                 with reviews
                 (https://guide.wagtail.org/en-latest/how-to-guides/configure-workflows-for-moderation/).
-
 
                 For legal and financial requirements specifically, Wagtail
                 supports turning on different publication workflows for
@@ -1547,20 +1522,20 @@ chapters:
               notes: ""
           - name: electronic-docs
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
-                The Wagtail logotype present in the documentation would fail
-                this.
+                The Wagtail logotype is the only image of text, and it is
+                essential for branding.
           - name: software
             adherence:
               level: not-applicable
               notes: ""
           - name: authoring-tool
             adherence:
-              level: partially-supports
+              level: supports
               notes: >-
-                The Wagtail logotype present in the login screen would fail
-                this.
+                The Wagtail logotype is the only image of text, and it is
+                essential for branding.
       - num: 2.1.3
         components:
           - name: web
