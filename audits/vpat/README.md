@@ -45,8 +45,12 @@ We will provide these on request.
 
 ## Generating reports
 
-We use the [OpenACR Editor](https://gsa.github.io/openacr-editor/) to generate the YAML and HTML, combined with the [OpenACR CLI](https://github.com/GSA/openacr/blob/main/docs/CLI.md) to generate the Markdown:
+Either start from an existing report, or use the [OpenACR Editor](https://gsa.github.io/openacr-editor/) to generate the YAML. Then use the [OpenACR CLI](https://github.com/GSA/openacr/blob/main/docs/CLI.md) to generate the HTML and Markdown:
 
 ```bash
-./node_modules/.bin/ts-node src/openacr.ts output -f vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.yaml -c catalog/2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.md
+# Update all with absolute paths:
+openacr output -f vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md
+openacr output -f vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html
 ```
+
+Note the default HTML output relies on external files which we don’t want to include, and has a few bugs. See commit ae2d51b for necessary changes.
