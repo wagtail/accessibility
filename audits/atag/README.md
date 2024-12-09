@@ -16,6 +16,12 @@ ATAG 2.0, available in multiple formats:
 - [JSON – Wagtail 6.3, ATAG Report Tool format](./atag_wagtail_6.3_atag-report-tool.json)
 - [WAI Authoring Tools List](https://www.w3.org/WAI/tools-list/authoring/)
 
+Here is an overview of audit findings, at the “success criteria” level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
+
+- Total: 28 **Pass**, 22 **Fail**, 13 **Not applicable**.
+- Part A: 14 **Pass**, 13 **Fail**, 4 **Not applicable**.
+- Part B: 14 **Pass**, 9 **Fail**, 9 **Not applicable**.
+
 ### Wagtail 5.1
 
 ATAG 2.0, available in multiple formats:
@@ -25,6 +31,12 @@ ATAG 2.0, available in multiple formats:
 - [HTML – Wagtail 5.1, ATAG Report Tool format](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_5.1_atag-report-tool.html)
 - [JSON – Wagtail 5.1, ATAG Report Tool format](./atag_wagtail_5.1_atag-report-tool.json)
 - [WAI Authoring Tools List](https://www.w3.org/WAI/tools-list/authoring/)
+
+Here is an overview of audit findings, at the “success criteria” level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
+
+- Total: 22 **Pass**, 28 **Fail**, 12 **Not applicable**.
+- Part A: 12 **Pass**, 15 **Fail**, 4 **Not applicable**.
+- Part B: 10 **Pass**, 13 **Fail**, 8 **Not applicable**.
 
 ## Generating reports
 
