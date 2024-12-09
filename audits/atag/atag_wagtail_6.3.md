@@ -1,9 +1,8 @@
-# [RFC 089](https://github.com/wagtail/rfcs/pull/89): ATAG 2.0 audit & accessibility roadmap
+# Wagtail 6.3 ATAG 2.0 audit & accessibility roadmap
 
-- [RFC: 089](https://github.com/wagtail/rfcs/pull/89)
 - Author: Thibaud Colas
 - Created: 2024-12-06
-- Last Modified: 2024-12-06
+- Last Modified: 2024-12-09
 - Product: Wagtail 6.3
 
 ## Audit findings overview

@@ -29,4 +29,4 @@ ATAG 2.0, available in multiple formats:
 ## Generating reports
 
 We manually create an audit report in Markdown, then transpose the results in the [ATAG Report Tool](https://www.w3.org/WAI/atag/report-tool/).
-Finally, we report findings in the [WAI Authoring Tools List](https://www.w3.org/WAI/tools-list/authoring/).
+Finally, we report findings in the [WAI Authoring Tools List](https://www.w3.org/WAI/tools-list/authoring/) via [their GitHub repository wai-authoring-tools-list](https://github.com/w3c/wai-authoring-tools-list/pulls?q=sort%3Aupdated-desc+is%3Apr+wagtail+).
