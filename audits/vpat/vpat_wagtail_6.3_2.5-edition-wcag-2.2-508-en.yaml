@@ -2030,8 +2030,11 @@ chapters:
         components:
           - name: none
             adherence:
-              level: not-evaluated
-              notes: ""
+              level: partially-supports
+              notes: >-
+                There are a few operations which require fine motor control,
+                or workarounds that are hard to discover, such as reordering
+                of pages. See WCAG SC 2.5.7 above.
       - num: "302.8"
         components:
           - name: none
