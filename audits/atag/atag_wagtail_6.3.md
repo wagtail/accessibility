@@ -2,7 +2,7 @@
 
 - Author: Thibaud Colas
 - Created: 2024-12-06
-- Last Modified: 2024-12-09
+- Last Modified: 2025-01-09
 - Product: Wagtail 6.3
 
 ## Audit findings overview
@@ -1233,7 +1233,7 @@ See [Implementing B.4.2](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 Proposed actions:
 
-- [Accessibility features documentation #69](https://github.com/wagtail/roadmap/issues/69)
+- In the editor guide: [Tutorial: accessible content with Wagtail](https://github.com/wagtail/guide/issues/396)
 - Add accessibility criteria to contributor documentation for documentation writing
 - Review developer documentation for accessibility improvements in examples
 
@@ -1255,7 +1255,7 @@ Proposed actions:
 
 Proposed actions:
 
-- Create a written tutorial in addition to how-to material.
+- In the editor guide: [Tutorial: accessible content with Wagtail](https://github.com/wagtail/guide/issues/396)
 - Create a video tutorial in addition to the user guide website.
 
 ##### B.4.2.4 Instruction Index

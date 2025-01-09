@@ -595,7 +595,7 @@
       "num": "B.4.2.1",
       "handle": "Model Practice (WCAG)",
       "result": "Failed",
-      "observations": "Wagtail’s documentation for content authors does not demonstrate accessible authoring practices. The documentation for developers does: [Accessibility considerations](https://docs.wagtail.org/en/stable/advanced_topics/accessibility_considerations.html).\n\nProposed actions:\n\n- [Accessibility features documentation #69](https://github.com/wagtail/roadmap/issues/69)\n- Add accessibility criteria to contributor documentation for documentation writing\n- Review developer documentation for accessibility improvements in examples",
+      "observations": "Wagtail’s documentation for content authors does not demonstrate accessible authoring practices. The documentation for developers does: [Accessibility considerations](https://docs.wagtail.org/en/stable/advanced_topics/accessibility_considerations.html).\n\nProposed actions:\n\n- [Tutorial: accessible content with Wagtail](https://github.com/wagtail/guide/issues/396)\n- Add accessibility criteria to contributor documentation for documentation writing\n- Review developer documentation for accessibility improvements in examples",
       "level": "A, AA, AAA",
       "evaluatedLevel": "Level AA",
       "evaluated": true
@@ -615,7 +615,7 @@
       "num": "B.4.2.3",
       "handle": "Tutorial",
       "result": "Failed",
-      "observations": "Wagtail’s accessibility features doesn’t have a tutorial.\n\nProposed actions:\n\n- Create a written tutorial in addition to how-to material.\n- Create a video tutorial in addition to the user guide website.",
+      "observations": "Wagtail’s accessibility features doesn’t have a tutorial.\n\nProposed actions:\n\n- In the editor guide: [Tutorial: accessible content with Wagtail](https://github.com/wagtail/guide/issues/396).\n- Create a video tutorial in addition to the user guide website.",
       "level": "AAA",
       "evaluatedLevel": "Level AAA",
       "evaluated": true
