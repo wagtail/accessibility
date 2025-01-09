@@ -10,7 +10,7 @@ Attendees: Sherry, Albina, Thibaud, Storm, Ahmed, Damilola, Saptak, Victoria
 
 - Albina, Storm, Saptak Interview with Ahmed
 - Thibaud Review overlap between WCAG 2.2 admin audit & ATAG audit
-- Thibaud Share results of VPAT
+- Thibaud Share results of ACR
 - Thibaud Add accessibility issues from Albina’s audit to backlog
 - Thibaud Message Victoria about “design-needed” items in mid-January
 - Thibaud Share list of talk ideas
@@ -52,7 +52,7 @@ Attendees: Sherry, Albina, Thibaud, Storm, Ahmed, Damilola, Saptak, Victoria
     - Proceed with more auditing in 2024
   - Outreachy projects
   - RFC 89 / ATAG audit
-  - VPAT – Thibaud
+  - ACR – Thibaud
   - Talks
     - Damilola – keen to speak, not sure about accessibility (:
     - Saptak

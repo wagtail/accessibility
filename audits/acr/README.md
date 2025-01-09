@@ -3,9 +3,9 @@ permalink: /audits/acr/
 redirect_from: "/audits/vpat/"
 ---
 
-# Wagtail Accessibility Conformance Report (ACR) / VPAT
+# Wagtail Accessibility Conformance Report (ACR)
 
-> An [Accessibility Conformance Report](https://www.section508.gov/sell/acr/) or Voluntary Product Accessibility Template (VPAT®) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
+> An [Accessibility Conformance Report](https://www.section508.gov/sell/acr/) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility. They are based on the Voluntary Product Accessibility Template (VPAT®) format.
 
 Wagtail documents the accessibility of the Wagtail admin interface with ACR / VPAT® reports, as this format is widely used in a procurement context, particularly in the United States of America.
 
@@ -44,10 +44,9 @@ Documents based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) 
 
 Documents based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, September 2023 update, with the latest [WCAG 2.1](https://www.w3.org/TR/WCAG21/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.7](https://github.com/gsa/openacr).
 
-## Other formats
+## Other formats and feedback
 
-Looking for a VPAT® in another format? Please [request it in GitHub issues](https://github.com/wagtail/accessibility/issues).
-VPAT® templates also exist for [EN 301 549](https://en.wikipedia.org/wiki/EN_301_549), and in an "INT" international variant that covers both Section 508 and EN 301 549. We can consider providing those documents on request.
+Looking for a report in another format? Is there missing information, or other inaccuracies? Please [let us know in GitHub issues](https://github.com/wagtail/accessibility/issues).
 
 ## Generating reports
 
