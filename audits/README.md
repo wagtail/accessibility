@@ -1,7 +1,7 @@
 # Audits
 
 - [ATAG audits](./atag/)
-- [Accessibility Conformance Report](./vpat/)
+- [Accessibility Conformance Report (ACR)](./acr/)
 
 ## Current issues backlogs
 

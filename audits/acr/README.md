@@ -1,4 +1,4 @@
-# Wagtail Accessibility Conformance Report / VPAT
+# Wagtail Accessibility Conformance Report (ACR) / VPAT
 
 > An [Accessibility Conformance Report](https://www.section508.gov/sell/acr/) or Voluntary Product Accessibility Template (VPAT®) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation meet (conform to) the Revised 508 Standards for IT accessibility.
 
