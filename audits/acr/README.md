@@ -1,4 +1,5 @@
 ---
+permalink: /audits/acr/
 redirect_from: "/audits/vpat/"
 ---
 
@@ -16,10 +17,10 @@ To view our latest report in HTML format, go to [wagtail.org/vpat/](https://wagt
 
 #### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
 
-- [HTML – Wagtail 6.3](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
-- [HTML (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
-- [Markdown (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md)
-- [YAML (source) – Wagtail 6.3](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+- [HTML – Wagtail 6.3](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
+- [HTML (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
+- [Markdown (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md)
+- [YAML (source) – Wagtail 6.3](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
 
 Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, November 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (December 2024), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.8](https://github.com/gsa/openacr).
 
@@ -27,19 +28,19 @@ Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat
 
 #### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
 
-- [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
-- [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
-- [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.5-edition-wcag-2.2-508-en.md)
-- [YAML (source) – Wagtail 5.2](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+- [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
+- [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
+- [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.md)
+- [YAML (source) – Wagtail 5.2](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
 
 Documents based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, September 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.7](https://github.com/gsa/openacr).
 
 #### VPAT 2.4 WCAG 2.1 and Revised Section 508 Edition
 
-- [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
-- [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
-- [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/vpat/vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.md)
-- [YAML (source) – Wagtail 5.2](./vpat_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+- [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
+- [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.html)
+- [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.md)
+- [YAML (source) – Wagtail 5.2](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
 
 Documents based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, September 2023 update, with the latest [WCAG 2.1](https://www.w3.org/TR/WCAG21/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.7](https://github.com/gsa/openacr).
 
@@ -54,8 +55,8 @@ Either start from an existing report, or use the [OpenACR Editor](https://acredi
 
 ```bash
 # Update all with absolute paths:
-openacr output -f vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md
-openacr output -f vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./vpat_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html
+openacr output -f acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.md
+openacr output -f acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html
 ```
 
 Note the default HTML output relies on external files which we don’t want to include, and has a few bugs. See commit ae2d51b for necessary changes.

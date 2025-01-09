@@ -19,8 +19,8 @@ vendor:
   email: ""
   phone: ""
   website: "https://wagtail.org/"
-report_date: 06/12/2024
-last_modified_date: 06/12/2024
+report_date: 01/09/2025
+last_modified_date: 01/09/2025
 version: 1
 notes: >-
   Testing based on https://static-wagtail-v6-3.netlify.app/admin/. This report
