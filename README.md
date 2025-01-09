@@ -11,7 +11,7 @@ Have a look at the [accessibility page on wagtail.org](https://wagtail.org/acces
 ## Audits
 
 - [ATAG audits](./audits/atag/)
-- [VPAT / ACR reports](./audits/vpat/)
+- [Accessibility Conformance Report](./audits/vpat/)
 
 ## Accessibility team
 
