@@ -11,6 +11,8 @@ Wagtail documents the accessibility of the Wagtail admin interface with ACR / VP
 
 ## Available reports
 
+> 👉️ we’re [looking for feedback on our reports](https://github.com/wagtail/accessibility/issues/1). If you use them, come say hi!
+
 To view our latest report in HTML format, go to [wagtail.org/accessibility/acr/](https://wagtail.org/accessibility/acr/). All of our past reports are listed here in multiple formats.
 
 ### Wagtail 6.3
