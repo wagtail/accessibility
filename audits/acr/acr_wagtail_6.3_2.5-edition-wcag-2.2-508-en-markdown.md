@@ -6,8 +6,8 @@ Based on VPAT® 2.5 WCAG 2.2 and Revised Section 508 Edition
 Wagtail 6.3
 
 ## Report Dates and Version
-- Report Date: 06/12/2024
-- Last Modified Date: 06/12/2024
+- Report Date: 01/09/2025
+- Last Modified Date: 01/23/2025
 - Version: wagtail-6.3-1
 
 ## Product Description
@@ -188,8 +188,8 @@ Conformance to the 30 criteria listed below is distributed within each category 
 | --- | --- | --- | --- | --- |
 | Supports | 25 | 17 | 0 | 11 |
 | Partially Supports | 0 | 0 | 0 | 4 |
-| Does Not Support | 0 | 8 | 1 | 10 |
-| Not Applicable | 5 | 5 | 29 | 5 |
+| Does Not Support | 0 | 8 | 0 | 10 |
+| Not Applicable | 5 | 5 | 30 | 5 |
 
 
 | Criteria | Conformance Level | Remarks and Explanations |
@@ -199,7 +199,7 @@ Conformance to the 30 criteria listed below is distributed within each category 
 | [1.2.8 Media Alternative (Prerecorded)](https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded) | <ul><li>**Web**: Not Applicable</li><li>**Electronic Documents**: Not Applicable</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Not Applicable</li> </ul> | <ul> </ul> |
 | [1.2.9 Audio-only (Live)](https://www.w3.org/TR/WCAG22/#audio-only-live) | <ul><li>**Web**: Not Applicable</li><li>**Electronic Documents**: Not Applicable</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Not Applicable</li> </ul> | <ul> </ul> |
 | [1.3.6 Identify Purpose](https://www.w3.org/TR/WCAG22/#identify-purpose) | <ul><li>**Web**: Supports</li><li>**Electronic Documents**: Supports</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Supports</li> </ul> | <ul><li>**Web**: Wagtail only uses semantic HTML elements as part of its web page output.</li> </ul> |
-| [1.4.6 Contrast (Enhanced)](https://www.w3.org/TR/WCAG22/#contrast-enhanced) | <ul><li>**Web**: Supports</li><li>**Electronic Documents**: Does Not Support</li><li>**Software**: Does Not Support</li><li>**Authoring Tool**: Does Not Support</li> </ul> | <ul><li>**Web**: Wagtail doesn’t enforce any specific styles in its output that would affect this SC.</li><li>**Electronic Documents**: We target lower contrast levels than this SC requires.</li><li>**Authoring Tool**: We target lower contrast levels than this SC requires. There are simple ways to create custom color themes for the admin interface should this be a must have.</li> </ul> |
+| [1.4.6 Contrast (Enhanced)](https://www.w3.org/TR/WCAG22/#contrast-enhanced) | <ul><li>**Web**: Supports</li><li>**Electronic Documents**: Does Not Support</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Does Not Support</li> </ul> | <ul><li>**Web**: Wagtail doesn’t enforce any specific styles in its output that would affect this SC.</li><li>**Electronic Documents**: We target lower contrast levels than this SC requires.</li><li>**Authoring Tool**: We target lower contrast levels than this SC requires. There are simple ways to create custom color themes for the admin interface should this be a must have.</li> </ul> |
 | [1.4.7 Low or No Background Audio](https://www.w3.org/TR/WCAG22/#low-or-no-background-audio) | <ul><li>**Web**: Not Applicable</li><li>**Electronic Documents**: Not Applicable</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Not Applicable</li> </ul> | <ul> </ul> |
 | [1.4.8 Visual Presentation](https://www.w3.org/TR/WCAG22/#visual-presentation) | <ul><li>**Web**: Supports</li><li>**Electronic Documents**: Does Not Support</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Does Not Support</li> </ul> | <ul><li>**Web**: Wagtail doesn’t enforce any specific styles in its output that would affect this SC.</li> </ul> |
 | [1.4.9 Images of Text (No Exception)](https://www.w3.org/TR/WCAG22/#images-of-text-no-exception) | <ul><li>**Web**: Supports</li><li>**Electronic Documents**: Supports</li><li>**Software**: Not Applicable</li><li>**Authoring Tool**: Supports</li> </ul> | <ul><li>**Electronic Documents**: The Wagtail logotype is the only image of text, and it is essential for branding.</li><li>**Authoring Tool**: The Wagtail logotype is the only image of text, and it is essential for branding.</li> </ul> |

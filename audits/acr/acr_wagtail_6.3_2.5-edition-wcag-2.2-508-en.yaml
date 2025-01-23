@@ -20,7 +20,7 @@ vendor:
   phone: ""
   website: "https://wagtail.org/"
 report_date: 01/09/2025
-last_modified_date: 01/09/2025
+last_modified_date: 01/23/2025
 version: 1
 notes: >-
   Testing based on https://static-wagtail-v6-3.netlify.app/admin/. This report
@@ -1467,7 +1467,7 @@ chapters:
               notes: We target lower contrast levels than this SC requires.
           - name: software
             adherence:
-              level: does-not-support
+              level: not-applicable
               notes: ""
           - name: authoring-tool
             adherence:
