@@ -24,6 +24,15 @@ To view our latest report in HTML format, go to [wagtail.org/accessibility/acr/]
 - [Markdown (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en-markdown.md)
 - [YAML (source) – Wagtail 6.3](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
 
+Summary table:
+
+| Conformance Level  | Web     | Electronic Documents | Software | Authoring Tool |
+| ------------------ | ------- | -------------------- | -------- | -------------- |
+| Supports           | 70 (+2) | 63 (+1)              | 0        | 49 (+6)        |
+| Partially Supports | 3 (-2)  | 0 (-1)               | 0        | 12 (-6)        |
+| Does Not Support   | 0       | 9                    | 0        | 12             |
+| Not Applicable     | 13      | 14                   | 86       | 13             |
+
 Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, November 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (December 2024), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.8](https://github.com/gsa/openacr).
 
 ### Wagtail 5.2
@@ -34,6 +43,15 @@ Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat
 - [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
 - [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en-markdown.md)
 - [YAML (source) – Wagtail 5.2](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+
+Summary table:
+
+| Conformance Level  | Web | Electronic Documents | Software | Authoring Tool |
+| ------------------ | --- | -------------------- | -------- | -------------- |
+| Supports           | 68  | 62                   | 0        | 43             |
+| Partially Supports | 5   | 1                    | 0        | 18             |
+| Does Not Support   | 0   | 9                    | 0        | 12             |
+| Not Applicable     | 13  | 14                   | 86       | 13             |
 
 Documents based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, September 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (October 2023), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.7](https://github.com/gsa/openacr).
 
