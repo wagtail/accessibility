@@ -10,21 +10,28 @@
 
 At the success criteria level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
 
-- Total: 22 **Pass**, 28 **Fail**, 12 **Not applicable**.
-- Part A: 12 **Pass**, 15 **Fail**, 4 **Not applicable**.
-- Part B: 10 **Pass**, 13 **Fail**, 8 **Not applicable**.
+| Conformance Level | Total | Part A | Part B |
+| ----------------- | ----- | ------ | ------ |
+| Pass              | 22    | 12     | 10     |
+| Fail              | 28    | 15     | 13     |
+| Not applicable    | 13    | 4      | 9      |
 
 At the success criteria level, by [level of conformance](https://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance):
 
-- Level A: 12 **Pass**, 7 **Fail**, 8 **Not applicable**.
-- Level AA: 7 **Pass**, 5 **Fail**, 3 **Not applicable**.
-- Level AAA: 3 **Pass**, 8 **Fail**, 0 **Not applicable**.
+| Conformance Level | Level A | Level AA | Level AAA |
+| ----------------- | ------- | -------- | --------- |
+| Pass              | 9       | 9        | 4         |
+| Fail              | 10      | 9        | 9         |
+| Not applicable    | 6       | 6        | 1         |
 
 At the guidelines level as per the [W3C Authoring Tools list](https://www.w3.org/WAI/tools-list/authoring/), with partial support:
 
-- Total: 5 **Pass**, 15 **Partially**, 2 **Fail**, 2 **Not applicable**.
-- Part A: 2 **Pass**, 9 **Partially**, 1 **Fail**, 1 **Not applicable**.
-- Part B: 3 **Pass**, 6 **Partially**, 1 **Fail**, 1 **Not applicable**.
+| Conformance Level | Total | Part A | Part B |
+| ----------------- | ----- | ------ | ------ |
+| Pass              | 5     | 2      | 3      |
+| Partially         | 15    | 9      | 6      |
+| Fail              | 2     | 1      | 1      |
+| Not applicable    | 2     | 1      | 1      |
 
 ### [A. Make the authoring tool user interface accessible](#a-make-the-authoring-tool-user-interface-accessible)
 
