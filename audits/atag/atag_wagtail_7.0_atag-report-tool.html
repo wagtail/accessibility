@@ -12,32 +12,13 @@
     td:not([class]):last-child {
       padding: 0 1em;
     }</style> <h1>Accessibility Report for Wagtail</h1> <div tabindex="-1"><h2>About the Evaluation</h2> <dl><dt>Tool Name</dt><dd>Wagtail</dd><dt>Website</dt><dd>https://wagtail.org/</dd><dt>Conformance Target</dt><dd>AAA </dd><dt>Report Identifier</dt><dd>Fri Dec 06 2024</dd><dt>Evaluator</dt><dd>Thibaud Colas</dd><dt>Organization</dt><dd>Wagtail</dd></dl> </div> <div tabindex="-1"><h2>Executive Summary</h2> <p>Wagtail’s second comprehensive ATAG audit, with the goal of driving next year’s roadmap for accessibility. A lot of progress has been made over the years, in particular recently with the addition of an accessibility checker built into the CMS.</p>
-<p>High-level results conformance results at the success criteria level as per the <a href="https://www.w3.org/WAI/atag/report-tool/">W3C ATAG report tool</a>, pass/fail:</p>
-<ul>
-<li>Total: 26 <strong>Pass</strong>, 24 <strong>Fail</strong>, 12 <strong>Not applicable</strong>.</li>
-<li>Part A: 14 <strong>Pass</strong>, 13 <strong>Fail</strong>, 4 <strong>Not applicable</strong>.</li>
-<li>Part B: 12 <strong>Pass</strong>, 11 <strong>Fail</strong>, 8 <strong>Not applicable</strong>.</li>
-</ul>
-<p>This marks a small but clear improvement from the previous audit, that had a total of 22 Pass, 28 Fail, 12 Not applicable.</p>
-<p>At the success criteria level, by <a href="https://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance">level of conformance</a>:</p>
-<ul>
-<li>Level A: 15 <strong>Pass</strong>, 4 <strong>Fail</strong>, 8 <strong>Not applicable</strong>.</li>
-<li>Level AA: 7 <strong>Pass</strong>, 5 <strong>Fail</strong>, 3 <strong>Not applicable</strong>.</li>
-<li>Level AAA: 4 <strong>Pass</strong>, 7 <strong>Fail</strong>, 0 <strong>Not applicable</strong>.</li>
-</ul>
-<p>At the guidelines level as per the <a href="https://www.w3.org/WAI/tools-list/authoring/">W3C Authoring Tools list</a>, with partial support:</p>
-<ul>
-<li>Total: 5 <strong>Pass</strong>, 15 <strong>Partially</strong>, 2 <strong>Fail</strong>, 2 <strong>Not applicable</strong>.</li>
-<li>Part A: 2 <strong>Pass</strong>, 9 <strong>Partially</strong>, 1 <strong>Fail</strong>, 1 <strong>Not applicable</strong>.</li>
-<li>Part B: 3 <strong>Pass</strong>, 6 <strong>Partially</strong>, 1 <strong>Fail</strong>, 1 <strong>Not applicable</strong>.</li>
-</ul>
 <p>All of the audit was conducted on Wagtail 7.0 released on 2025-05-13, on the demo site <a href="https://static-wagtail-v7-0.netlify.app/admin/">Static Wagtail 7.0 demo</a> unless indicated otherwise.</p>
 <p>The full audit is available at <a href="https://wagtail.org/accessibility/atag-audit/">wagtail.org/accessibility/atag-audit/</a></p>
  <p></p></div> <h2>Results</h2> <h3>Summary</h3> <p>Reported on
   <strong>63</strong>
   of
   <strong>63</strong>
-  Success Criteria.</p> <ul><li>28 Passed</li><li>22 Failed</li><li>0 Cannot tell</li><li>13 Not applicable</li> <li>0 Not Checked</li></ul> <h3>All Results</h3> <table border="1" style="border-collapse: collapse"><thead><tr><th>Success Criterion</th>
+  Success Criteria.</p> <ul><li>30 Passed</li><li>20 Failed</li><li>0 Cannot tell</li><li>13 Not applicable</li> <li>0 Not Checked</li></ul> <h3>All Results</h3> <table border="1" style="border-collapse: collapse"><thead><tr><th>Success Criterion</th>
       <th>Result</th>
       <th>Observations</th>
       </tr></thead> <tbody><tr><td>A.1.1.1: Web-Based Accessible (WCAG) (evaluated as Level AA)</td> <td> Failed</td> <td> <p>Wagtail <a href="https://wagtail.org/accessibility/">currently targets WCAG 2.2 AA and ATAG 2.0 AA conformance</a> for the administrative interface of the CMS. Though a lot of progress has been made, there are still <a href="https://github.com/orgs/wagtail/projects/9/views/1">known conformance issues and possible improvements</a>.</p>
@@ -465,7 +446,7 @@
 </td> </tr><tr><td>A.4.2.2: Document All Features (Level AA)</td> <td> Failed</td> <td> <p>Here is a high-level record of whether given functionality is documented. As a summary:</p>
 <ul>
 <li>For 19 high-level functional areas, 9 are partially documented and 4 are fully documented.</li>
-<li>For 145 specific features, 52 are documented.</li>
+<li>For 148 specific features, 55 are documented.</li>
 </ul>
 <p>This record does not cover functionality provided by the underlying platform (for example; automated embed creation) or unused by authors.</p>
 <p>For a full record of documentation status across 145 features divided in 19 functional areas, see <a href="https://wagtail.org/accessibility/atag-audit/#a422-document-all-features">A.4.2.2 Document All Features - Wagtail ATAG 2.0 report</a>.</p>
@@ -510,26 +491,17 @@
 </td> </tr><tr><td>B.2.3.2: Automating Repair of Text Alternatives (Level A)</td> <td> Passed</td> <td> <p>Wagtail doesn’t attempt to repair text alternatives. It does use the image’s file name as the default value for the image’s title field when creating a new image, which is used for alt text, but this is part of the upload/editing process (In-Session Repairs) and not an automated process. Said file name is filtered by default to remove the file extension.</p>
 </td> </tr><tr><td>B.2.3.3: Save for Reuse (Level AAA)</td> <td> Failed</td> <td> <p>By default, Wagtail saves each image’s text alternative and reuses it everywhere the image is reused ("Save and Suggest"). It is possible to replace this text alternative with a new one, but it isn’t possible to delete it.</p>
 <p>Suggested action: incorporate this requirement into the contextual alt text support.</p>
-</td> </tr><tr><td>B.2.4.1: Accessible Template Options (WCAG) (evaluated as Level AA)</td> <td> Failed</td> <td> <p>With rich text formatting and StreamField blocks, Wagtail provides templates for basic text content as well as complex formatting like tables. Wagtail also provides templates for form fields within its forms module. Specific templates have accessibility issues.</p>
+</td> </tr><tr><td>B.2.4.1: Accessible Template Options (WCAG) (evaluated as Level AA)</td> <td> Passed</td> <td> <p>With rich text formatting and StreamField blocks, Wagtail provides templates for basic text content as well as complex formatting like tables. Wagtail also provides templates for form fields within its forms module. As of now, none of those templates have accessibility issues.</p>
 <ul>
 <li>For rich text formats: no issues.</li>
 <li>For Field block types: no issues.</li>
 <li>For Structural block types: no issues</li>
-<li>For form builder field types: all except "Hidden field" have issues with programmatic association of errors with fields.</li>
+<li>For form builder field types: no issues.</li>
 </ul>
-<p>This may be addressed in the future, via improvements in Django. See:</p>
-<ul>
-<li><a href="https://code.djangoproject.com/ticket/32819">Django ticket #32819 - Fields’ help text and errors should be associated with input</a></li>
-<li><a href="https://github.com/django/django/pull/17520">Fixed #32819 -- Established relationship between form fields and their errors. #17520</a></li>
-</ul>
-<p>Proposed actions:</p>
-<ul>
-<li>Support improvements in Django</li>
-</ul>
-<p>For a full tabular view of all template options’ status, see <a href="https://wagtail.org/accessibility/atag-audit/#b24-assist-authors-with-accessible-templates">B.2.4. Assist authors with accessible templates - Wagtail ATAG 2.0 report</a>.</p>
+<p>There are no issues with the latest Django 5.2. In past versions, error messages weren’t <a href="https://code.djangoproject.com/ticket/32819">programmatically associated with the field</a>.</p>
 </td> </tr><tr><td>B.2.4.2: Identify Template Accessibility (Level AA)</td> <td> Passed</td> <td> <p>Wagtail’s template selection mechanism is the block chooser (or field chooser for form builder fields). In both cases, there would be no options defined unless configured by site implementers, which can customize block icons or labels / names to indicate accessible block types.</p>
 </td> </tr><tr><td>B.2.4.3: Author-Created Templates (Level AA)</td> <td> Not applicable</td> <td> <p>Wagtail doesn’t allow authors to create custom block templates.</p>
-</td> </tr><tr><td>B.2.4.4: Accessible Template Options (Enhanced) (Level AAA)</td> <td> Failed</td> <td> <p>Some of Wagtail’s template options aren’t accessible. See <em>B.2.4.1 Accessible Template Options</em>.</p>
+</td> </tr><tr><td>B.2.4.4: Accessible Template Options (Enhanced) (Level AAA)</td> <td> Passed</td> <td> <p>All of the template options are accessibleq. See <em>B.2.4.1 Accessible Template Options</em>.</p>
 </td> </tr><tr><td>B.2.5.1: Accessible Pre-Authored Content Options (Level AA)</td> <td> Not applicable</td> <td> <p>Wagtail doesn’t provide pre-authored content.</p>
 </td> </tr><tr><td>B.2.5.2: Identify Pre-Authored Content Accessibility (Level AA)</td> <td> Not applicable</td> <td> <p>Wagtail doesn’t provide pre-authored content.</p>
 </td> </tr><tr><td>B.3.1.1: Checking Assistance (WCAG) (evaluated as Level A)</td> <td> Passed</td> <td> <p>There are a number of formatting / content entry options in the CMS that can lead to accessibility issues. The built-in accessibility checker provides automated tests for a number of possible issues, but not all. Available checks are:</p>
@@ -607,7 +579,7 @@
 </td> </tr><tr><td>B.4.2.3: Tutorial (Level AAA)</td> <td> Failed</td> <td> <p>Wagtail’s accessibility features doesn’t have a tutorial.</p>
 <p>Proposed actions:</p>
 <ul>
-<li>In the editor guide: <a href="https://github.com/wagtail/guide/issues/396">Tutorial: accessible content with Wagtail</a></li>
+<li>In the editor guide: <a href="https://github.com/wagtail/guide/issues/396">Tutorial: accessible content with Wagtail</a>.</li>
 <li>Create a video tutorial in addition to the user guide website.</li>
 </ul>
 </td> </tr><tr><td>B.4.2.4: Instruction Index (Level AAA)</td> <td> Failed</td> <td> <p>Wagtail’s documentation for content author does not have such an index. The documentation for developers does.</p>
