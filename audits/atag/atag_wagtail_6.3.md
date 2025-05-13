@@ -250,19 +250,19 @@ See [Implementing A.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 **Fail**. For icons within the CMS, all have appropriate alt text. For CMS-managed images, Wagtail renders non-text content in nine scenarios, five of which are related to editing views and would require changes:
 
 - Fail: Image upload fields in the image edit/create form. The image’s title displays as a field next to the visuals. The title acts as alt text by default in Wagtail. This is missing a programmatic association between the title or description text, and the image.
-  - Example: [Wagtail 6.3 - Editing image Boston Cream Pie](https://static-wagtail-v6-3.netlify.app/admin/images/43/)
+  - Example: [Editing image Boston Cream Pie](https://static-wagtail-v6-3.netlify.app/admin/images/43/)
   - Current: The alt text is permanently set to the contents of the Title field on page load.
   - Proposed actions:
     - The image could be more clearly associated with the live title and description fields with an `aria-labelledby`.
     - The description field could have help text to clarify its use as the image’s alt text (at least in the CMS).
 - Fail: Image chooser fields in forms. The selected image’s title displays next to the visuals. The description acts as alt text by default in Wagtail. This is missing a programmatic association between the title text and image.
-  - Example: [Wagtail 6.3 - Editing Blog Page: Desserts with Benefits, Image field](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#panel-child-content-image-section)
+  - Example: [Editing Blog Page: Desserts with Benefits, Image field](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#panel-child-content-image-section)
   - Current: Alt text set to `alt=""`, with title displayed after the image.
   - Proposed actions:
     - Associate the visible text with the image with `aria-labelledby`.
     - Switch to the description field as alt text in the CMS.
 - Fail: Image chooser fields with a custom alt text field next to them. The custom alt text field is not programmatically associated with the image.
-  - Example (with Caption field): [Wagtail 6.3 - Editing Blog Page: Desserts with Benefits, Image block](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#block-556e76b0-0f5a-42bb-b039-653f3d6b1f0b-section)
+  - Example (with Caption field): [Editing Blog Page: Desserts with Benefits, Image block](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#block-556e76b0-0f5a-42bb-b039-653f3d6b1f0b-section)
   - Alt text set to `alt=""`, with title displayed after the image, and custom field further down.
   - Proposed actions:
     - Implement this pattern in the bakerydemo website, based on the new Wagtail 6.3 ImageBlock.
@@ -274,7 +274,7 @@ See [Implementing A.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
     - Add a programmatic association between tooltip text and image with `aria-labelledby`.
     - Make sure the image has alt text accessible even when the tooltip is closed.
 - Fail: Embeds within rich text fields. Here we display the embed’s thumbnail if there is one. The embed’s title is displayed in a tooltip associated with the embed, but there is no programmatic association.
-  - Example: [Wagtail 6.3 - Editing Blog Page: Desserts with Benefits, Paragraph block](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#block-ac48af95-b3be-4602-8c2f-5c43fc080f17-section)
+  - Example: [Editing Blog Page: Desserts with Benefits, Paragraph block](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/#block-ac48af95-b3be-4602-8c2f-5c43fc080f17-section)
   - Current: Alt text set to `alt=""`, with no text displayed near the image.
   - Proposed actions:
     - Add a programmatic association between tooltip text and image with `aria-labelledby`.
@@ -283,7 +283,7 @@ See [Implementing A.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 Outside editing views (possibly not part of ATAG requirements), Wagtail renders images in the following scenarios:
 
 - Revisions comparison with images. The image’s title is used as alt text. The title should be visible to the user in the UI, but it is not.
-  - Example: [Wagtail 6.3 - Comparing Bread and Circuses](https://static-wagtail-v6-3.netlify.app/admin/pages/68/revisions/compare/46...108/)
+  - Example: [Comparing Bread and Circuses](https://static-wagtail-v6-3.netlify.app/admin/pages/68/revisions/compare/46...108/)
   - Current: the image title is used as `alt` attribute.
   - Proposed actions:
     - Add demo content following this pattern in bakerydemo.
@@ -291,13 +291,13 @@ Outside editing views (possibly not part of ATAG requirements), Wagtail renders 
     - Switch to the `description` field as alt text.
 - Revisions comparison with images or embeds in rich text: currently unimplemented.
 - Snippets listings. When there is an image column, its alt text is set but invisible in the UI.
-  - Example: [Wagtail 6.3 – Snippets People](https://static-wagtail-v6-3.netlify.app/admin/snippets/base/person/)
+  - Example: [Snippets People](https://static-wagtail-v6-3.netlify.app/admin/snippets/base/person/)
   - Current: the image title is used as `alt` attribute.
   - Proposed actions:
     - Display the images’ titles in the UI, with programmatic `aria-labelledby` associations.
     - Switch to the `description` field as alt text.
 - Image gallery. Here we display the title underneath the image as alt text, in a `figcaption`.
-  - Example: [Wagtail 6.3 – Images](https://static-wagtail-v6-3.netlify.app/admin/images/)
+  - Example: [Images](https://static-wagtail-v6-3.netlify.app/admin/images/)
   - Current: Alt text set to `alt=""`, but the image is within a `figure` with the image’s title as `figcaption`.
   - Proposed actions:
     - Associate the text and the image with `aria-labelledby`.
@@ -362,15 +362,15 @@ See [Implementing A.3.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 **Fail**. Though the majority of the authoring tool’s functionality is keyboard accessible, there are specific areas that aren’t:
 
 - In rich text fields, pin/unpin of the rich text toolbar.
-  - Example: [Wagtail 6.3 - Editing Blog Page: Tracking Wild Yeast](https://static-wagtail-v6-3.netlify.app/admin/pages/62/edit/)
+  - Example: [Editing Blog Page: Tracking Wild Yeast](https://static-wagtail-v6-3.netlify.app/admin/pages/62/edit/)
   - Proposed actions:
     - Research how other WYSIWYG interfaces allow keyboard interactions with all toolbar controls.
 - In rich text fields, Edit functionality for links, documents, images, embeds.
   - Examples:
-    - Links: [Wagtail 6.3 - Editing Standard page: About](https://static-wagtail-v6-3.netlify.app/admin/pages/76/edit/#panel-child-content-body-section)
-    - Documents: [Wagtail 6.3 - Editing Recipe page: Southern Cornbread](https://static-wagtail-v6-3.netlify.app/admin/pages/82/edit/#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section)
+    - Links: [Editing Standard page: About](https://static-wagtail-v6-3.netlify.app/admin/pages/76/edit/#panel-child-content-body-section)
+    - Documents: [Editing Recipe page: Southern Cornbread](https://static-wagtail-v6-3.netlify.app/admin/pages/82/edit/#block-910c5024-a47a-45b1-a3a3-8f8bb5a8fa70-section)
     - Images: no example
-    - Embeds: [Wagtail 6.3 - Editing Blog page: Desserts with Benefits](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/)
+    - Embeds: [Editing Blog page: Desserts with Benefits](https://static-wagtail-v6-3.netlify.app/admin/pages/77/edit/)
   - Proposed actions:
     - Research how other WYSIWYG interfaces allow keyboard interactions with all toolbar controls.
     - Possibly support selection of all those content types and press "Enter" to move focus to their UI.
@@ -379,21 +379,21 @@ See [Implementing A.3.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
   - See [Making Wagtail Accessible for users with disabilities #4199](https://github.com/wagtail/wagtail/issues/4199)
   - See also [Implement focus management for chooser modals #5338](https://github.com/wagtail/wagtail/issues/5338)
   - Examples:
-    - Images: [Wagtail 6.3 - Editing Bread page: Arepa](https://static-wagtail-v6-3.netlify.app/admin/pages/37/edit/#panel-child-content-image-section)
-    - Snippets: [Wagtail 6.3 - Editing Bread page: Arepa](https://static-wagtail-v6-3.netlify.app/admin/pages/37/edit/#panel-child-content-origin-section)
+    - Images: [Editing Bread page: Arepa](https://static-wagtail-v6-3.netlify.app/admin/pages/37/edit/#panel-child-content-image-section)
+    - Snippets: [Editing Bread page: Arepa](https://static-wagtail-v6-3.netlify.app/admin/pages/37/edit/#panel-child-content-origin-section)
     - Documents: no example
-    - Pages: [Wagtail 6.3 - Editing workflow Moderator approval](https://static-wagtail-v6-3.netlify.app/admin/workflows/edit/1/#workflow-pages-section)
-    - Tasks: [Wagtail 6.3 - Editing workflow Moderator approval](https://static-wagtail-v6-3.netlify.app/admin/workflows/edit/1/#inline_child_workflow_tasks-0-panel-section)
+    - Pages: [Editing workflow Moderator approval](https://static-wagtail-v6-3.netlify.app/admin/workflows/edit/1/#workflow-pages-section)
+    - Tasks: [Editing workflow Moderator approval](https://static-wagtail-v6-3.netlify.app/admin/workflows/edit/1/#inline_child_workflow_tasks-0-panel-section)
   - Proposed actions:
     - Complete [Re-implement chooser modals with new design #9246](https://github.com/wagtail/wagtail/pull/9246)
 - In image create/edit forms, creation or editing of a focal area.
   - Current: it’s impossible to set a focal area without a mouse.
-  - Example: [Wagtail 6.3 - Editing Boston Cream Pie](https://static-wagtail-v6-3.netlify.app/admin/images/43/)
+  - Example: [Editing Boston Cream Pie](https://static-wagtail-v6-3.netlify.app/admin/images/43/)
   - Proposed actions:
     - Add keyboard support with a new implementation
     - Factor in [possible requirements](https://github.com/wagtail/wagtail/issues/10947#issuecomment-1746464044) for other types of image manipulation.
 - In table blocks, editing of the table.
-  - Example: [Wagtail 6.3 – Editing Recipe page: Hot Cross Bun](https://static-wagtail-v6-3.netlify.app/admin/pages/81/edit/#block-2b9b59cb-4dd7-4ebf-ac66-1ed43471609b-section)
+  - Example: [Editing Recipe page: Hot Cross Bun](https://static-wagtail-v6-3.netlify.app/admin/pages/81/edit/#block-2b9b59cb-4dd7-4ebf-ac66-1ed43471609b-section)
 
 ##### A.3.1.2 No Keyboard Traps
 
