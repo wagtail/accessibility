@@ -11,24 +11,24 @@ At the success criteria level as per the [W3C ATAG report tool](https://www.w3.o
 
 | Conformance Level | Total      | Part A     | Part B     |
 | ----------------- | ---------- | ---------- | ---------- |
-| Pass              | 28 (+6 🎉) | 14 (+2 🤘) | 14 (+4 🚀) |
-| Fail              | 24 (-6)    | 15 (-2)    | 9 (-4)     |
+| Pass              | 30 (+8 🎉) | 14 (+2 🤘) | 16 (+6 🚀) |
+| Fail              | 20 (-8)    | 15 (-2)    | 5 (-8)     |
 | Not applicable    | 13         | 4          | 9          |
 
 At the success criteria level, by [level of conformance](https://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance):
 
 | Conformance Level | Level A | Level AA | Level AAA |
 | ----------------- | ------- | -------- | --------- |
-| Pass              | 12 (+3) | 11 (+2)  | 5 (+1)    |
-| Fail              | 8 (-2)  | 7 (-2)   | 7 (-2)    |
+| Pass              | 12 (+3) | 12 (+3)  | 6 (+2)    |
+| Fail              | 7 (-3)  | 7 (-2)   | 6 (-3)    |
 | Not applicable    | 6       | 6        | 1         |
 
 At the guidelines level as per the [W3C Authoring Tools list](https://www.w3.org/WAI/tools-list/authoring/), with partial support:
 
 | Conformance Level | Total   | Part A | Part B |
 | ----------------- | ------- | ------ | ------ |
-| Pass              | 6 (+1)  | 2      | 4 (+1) |
-| Partially         | 14 (-1) | 9      | 5 (-1) |
+| Pass              | 7 (+2)  | 2      | 5 (+2) |
+| Partially         | 13 (-2) | 9      | 4 (-2) |
 | Fail              | 2       | 1      | 1      |
 | Not applicable    | 2       | 1      | 1      |
 
@@ -104,11 +104,11 @@ At the guidelines level as per the [W3C Authoring Tools list](https://www.w3.org
     - **Pass**: [B.2.3.1 Alternative Content is Editable (WCAG)](#b231-alternative-content-is-editable-wcag) (Level A / AA / AAA)
     - **Pass**: [B.2.3.2 Automating Repair of Text Alternatives](#b232-automating-repair-of-text-alternatives) (Level A)
     - **Fail**: [B.2.3.3 Save for Reuse](#b233-save-for-reuse) (Level AAA)
-  - **Partially**: [B.2.4. Assist authors with accessible templates](#b24-assist-authors-with-accessible-templates)
-    - **Fail**: [B.2.4.1 Accessible Template Options (WCAG)](#b241-accessible-template-options-wcag) (Level A / AA / AAA)
+  - **Pass**: [B.2.4. Assist authors with accessible templates](#b24-assist-authors-with-accessible-templates)
+    - **Pass**: [B.2.4.1 Accessible Template Options (WCAG)](#b241-accessible-template-options-wcag) (Level A / AA / AAA)
     - **Pass**: [B.2.4.2 Identify Template Accessibility](#b242-identify-template-accessibility) (Level AA)
     - **Not applicable**: [B.2.4.3 Author-Created Templates](#b243-author-created-templates) (Level AA)
-    - **Fail**: [B.2.4.4 Accessible Template Options (Enhanced)](#b244-accessible-template-options-enhanced) (Level AAA)
+    - **Pass**: [B.2.4.4 Accessible Template Options (Enhanced)](#b244-accessible-template-options-enhanced) (Level AAA)
   - **Not applicable**: [B.2.5. Assist authors with accessible pre-authored content](#b25-assist-authors-with-accessible-pre-authored-content)
     - **Not applicable**: [B.2.5.1 Accessible Pre-Authored Content Options](#b251-accessible-pre-authored-content-options) (Level AA)
     - **Not applicable**: [B.2.5.2 Identify Pre-Authored Content Accessibility](#b252-identify-pre-authored-content-accessibility) (Level AA)
@@ -147,7 +147,7 @@ See [Implementing A.1.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 **Fail**. Evaluated as: **Level AA**. Wagtail [currently targets WCAG 2.2 AA and ATAG 2.0 AA conformance](https://wagtail.org/accessibility/) for the administrative interface of the CMS. Though a lot of progress has been made, there are still [known conformance issues and possible improvements](https://github.com/orgs/wagtail/projects/9/views/1).
 
-As a representation of the state of Wagtail’s WCAG 2.1 AA conformance, here is a summary of WCAG 2.2 AA and best practice issues across releases, for the page editor UI (tested with [Welcome to the Wagtail bakery!](https://static-wagtail-v7-0.netlify.app/admin/pages/60/edit/)):
+As a representation of the state of Wagtail’s WCAG 2.2 AA conformance, here is a summary of WCAG 2.2 AA and best practice issues across releases, for the page editor UI (tested with [Welcome to the Wagtail bakery!](https://static-wagtail-v7-0.netlify.app/admin/pages/60/edit/)):
 
 | Version                                                               | Total | [Color contrast](https://dequeuniversity.com/rules/axe/4.4/color-contrast) | [`nested-interactive`](https://www.browserstack.com/docs/accessibility/rules/wcag/nested-interactive) | [`aria-valid-attr-value`](https://accessibilityinsights.io/info-examples/web/aria-valid-attr-value/) | [`aria-input-field-name`](https://www.browserstack.com/docs/accessibility/rules/wcag/aria-input-field-name) | [Links purpose](https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose) | [Empty heading](https://www.browserstack.com/docs/accessibility/rules/best-practice/empty-heading) | [Heading order](https://accessibility.browserstack.com/api/more-info/4.4/heading-order) | [`region`](https://accessibility.browserstack.com/api/more-info/4.4/region) | [Landmark unique](https://www.browserstack.com/docs/accessibility/rules/best-practice/landmark-unique) |
 | --------------------------------------------------------------------- | ----- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -177,8 +177,9 @@ References:
 - [WCAG 2.2 & ATAG 2.0 CMS admin](https://github.com/orgs/wagtail/projects/9/views/1)
 - [Living accessibility audit (last update: December 2024)](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit)
 
-Full list of 21 currently-documented accessibility issues in GitHub:
+Full list of 22 [currently-tracked accessibility issues](https://github.com/wagtail/wagtail/issues?q=sort%3Aupdated-desc%20is%3Aissue%20label%3AAccessibility%20label%3Atype%3ABug%20is%3Aopen) in GitHub:
 
+- [Low-contrast active menu item indicator #12644](https://github.com/wagtail/wagtail/issues/12644)
 - [Rich text ctrl + K keyboard shortcut should open the link or document tooltip #11627](https://github.com/wagtail/wagtail/issues/11627)
 - [Add comment button should move focus to the new comment when the panel is closed #11021](https://github.com/wagtail/wagtail/issues/11021)
 - [Row headers for permission forms as tables #12288](https://github.com/wagtail/wagtail/issues/12288)
@@ -201,7 +202,7 @@ Full list of 21 currently-documented accessibility issues in GitHub:
 - [Keyboard navigation breaks with links in paragraph in Chrome on MacOS #7693](https://github.com/wagtail/wagtail/issues/7693)
 - [Datetimepicker UI component is not accessible to screen-reader and keyboard users #5325](https://github.com/wagtail/wagtail/issues/5325)
 
-There have been 19 issues fixed since the last ATAG 2.0 audit:
+There have been 19 issues fixed since the last significant ATAG 2.0 audit:
 
 - [Status tag contrast is too low #5778](https://github.com/wagtail/wagtail/issues/5778)
 - [Empty table header usage across the admin #11596](https://github.com/wagtail/wagtail/issues/11596)
@@ -267,7 +268,7 @@ See [Implementing A.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
   - Example (with Caption field): [Editing Blog Page: Desserts with Benefits, Image block](https://static-wagtail-v7-0.netlify.app/admin/pages/77/edit/#block-556e76b0-0f5a-42bb-b039-653f3d6b1f0b-section)
   - Alt text set to `alt=""`, with title displayed after the image, and custom field further down.
   - Proposed actions:
-    - Implement this pattern in the bakerydemo website, based on the new Wagtail 7.0 ImageBlock.
+    - Implement this pattern in the bakerydemo website, based on the built-in ImageBlock.
     - Associate both the title of the image, and the custom field, with `aria-labelledby`, or a combination of it and `aria-describedby`.
 - Fail: Images within rich text fields. Here the image’s title is displayed in a tooltip associated with the image, but there is no programmatic association.
   - Example: unavailable
@@ -687,7 +688,7 @@ The following functionality is provided by the underlying platform:
 **Fail**. Here is a high-level record of whether given functionality is documented. As a summary:
 
 - For 19 high-level functional areas, 9 are partially documented and 4 are fully documented.
-- For 145 specific features, 52 are documented.
+- For 148 specific features, 55 are documented.
 
 This record does not cover functionality provided by the underlying platform (for example; automated embed creation) or unused by authors.
 
@@ -725,6 +726,7 @@ This record does not cover functionality provided by the underlying platform (fo
 | Edit                                              | Yes         |
 | Edit - Promote tab                                | No          |
 | Preview                                           | No          |
+| Block previews                                    | Yes         |
 | Scheduled publishing                              | Yes         |
 | Explorer - Bulk actions                           | Yes         |
 | Explorer - Bulk move                              | No          |
@@ -746,6 +748,7 @@ This record does not cover functionality provided by the underlying platform (fo
 | Add multiple images                               | No          |
 | Delete                                            | No          |
 | Image URL generator                               | No          |
+| Alt text management                               | Yes         |
 | Bulk actions                                      | Yes         |
 | Bulk add tags                                     | No          |
 | Bulk add to collection                            | No          |
@@ -787,6 +790,7 @@ This record does not cover functionality provided by the underlying platform (fo
 | Site history                                      | Yes         |
 | Aging pages                                       | Yes         |
 | Page types usage                                  | Yes         |
+| Search terms                                      | Yes         |
 | **Workflows**                                     | Partial     |
 | View all                                          | Yes         |
 | Add                                               | No          |
@@ -994,7 +998,7 @@ See [Implementing B.2.4](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 > (Level A / AA / AAA). See [Implementing B.2.4.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-20150924/#sc_b241).
 
-**Fail**. Evaluated as: **Level AA**. With rich text formatting and StreamField blocks, Wagtail provides templates for basic text content as well as complex formatting like tables. Wagtail also provides templates for form fields within its forms module. Specific templates have accessibility issues.
+**Pass**. Evaluated as: **Level AA**. With rich text formatting and StreamField blocks, Wagtail provides templates for basic text content as well as complex formatting like tables. Wagtail also provides templates for form fields within its forms module. As of now, none of those templates have accessibility issues.
 
 ###### Rich text formats
 
@@ -1045,32 +1049,23 @@ Structural block types do not render any content and as such have no accessibili
 
 ###### Form builder field types
 
-All form builder fields suffer from the same issue: Error messages aren’t programmatically associated with the field.
+There are no issues with the latest Django 5.2. In past versions, error messages weren’t [programmatically associated with the field](https://code.djangoproject.com/ticket/32819).
 
-| Template         | Accessibility issues            |
-| ---------------- | ------------------------------- |
-| Single line text | Errors association with fields. |
-| Multi-line text  | Errors association with fields. |
-| Email            | Errors association with fields. |
-| Number           | Errors association with fields. |
-| URL              | Errors association with fields. |
-| Checkbox         | Errors association with fields. |
-| Checkboxes       | Errors association with fields. |
-| Drop down        | Errors association with fields. |
-| Multiple select  | Errors association with fields. |
-| Radio buttons    | Errors association with fields. |
-| Date             | Errors association with fields. |
-| Date/time        | Errors association with fields. |
-| Hidden field     | None                            |
-
-This may be addressed in the future, via improvements in Django. See:
-
-- [Django ticket #32819 - Fields’ help text and errors should be associated with input](https://code.djangoproject.com/ticket/32819)
-- [Fixed #32819 -- Established relationship between form fields and their errors. #17520](https://github.com/django/django/pull/17520)
-
-Proposed actions:
-
-- Support improvements in Django
+| Template         | Accessibility issues |
+| ---------------- | -------------------- |
+| Single line text | None                 |
+| Multi-line text  | None                 |
+| Email            | None                 |
+| Number           | None                 |
+| URL              | None                 |
+| Checkbox         | None                 |
+| Checkboxes       | None                 |
+| Drop down        | None                 |
+| Multiple select  | None                 |
+| Radio buttons    | None                 |
+| Date             | None                 |
+| Date/time        | None                 |
+| Hidden field     | None                 |
 
 ##### B.2.4.2 Identify Template Accessibility
 
@@ -1088,7 +1083,7 @@ Proposed actions:
 
 > (Level AAA). See [Implementing B.2.4.4](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-20150924/#sc_b244).
 
-**Fail**. Some of Wagtail’s template options aren’t accessible. See _B.2.4.1 Accessible Template Options_.
+**Pass**. All of the template options are accessible. See _B.2.4.1 Accessible Template Options_.
 
 #### [B.2.5. Assist authors with accessible pre-authored content](https://www.w3.org/TR/ATAG20/#gl_b25)
 
