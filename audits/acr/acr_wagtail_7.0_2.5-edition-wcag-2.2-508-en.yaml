@@ -1,7 +1,7 @@
 title: Wagtail Accessibility Conformance Report
 product:
   name: Wagtail
-  version: "6.3"
+  version: "7.0"
   description: >-
     A Django content management system focused on flexibility and user
     experience
@@ -679,7 +679,7 @@ chapters:
               notes: >-
                 Forms created with Wagtail use the aria-describedby and
                 aria-invalid attributes to programmatically identify fields with
-                errors, as per how Django 5.1+ operates.
+                errors, as per how Django operates.
           - name: electronic-docs
             adherence:
               level: supports
@@ -994,8 +994,8 @@ chapters:
             adherence:
               level: supports
               notes: >-
-                We’re not aware of any issue with non-text contrast,
-                though new issues are occasionally found.
+                We are aware of one issue with contrast of active menu item indicators
+                (https://github.com/wagtail/wagtail/issues/12644).
       - num: 1.4.12
         components:
           - name: web
