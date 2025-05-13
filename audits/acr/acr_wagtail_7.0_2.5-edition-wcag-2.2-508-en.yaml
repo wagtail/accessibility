@@ -19,11 +19,11 @@ vendor:
   email: ""
   phone: ""
   website: "https://wagtail.org/"
-report_date: 01/09/2025
-last_modified_date: 01/23/2025
+report_date: 05/13/2025
+last_modified_date: 05/13/2025
 version: 1
 notes: >-
-  Testing based on https://static-wagtail-v6-3.netlify.app/admin/. This report
+  Testing based on https://static-wagtail-v7-0.netlify.app/admin/. This report
   was created based on results of an ATAG 2.0 audit
   (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit
   (https://github.com/wagtail/wagtail/discussions/11180), as well as the public
