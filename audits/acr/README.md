@@ -93,9 +93,13 @@ Looking for a report in another format? Is there missing information, or other i
 Either start from an existing report, or use the [OpenACR Editor](https://acreditor.section508.gov/) to generate the YAML. Then use the [OpenACR CLI](https://github.com/GSA/openacr/blob/main/docs/CLI.md) to generate the HTML and Markdown:
 
 ```bash
-# Update all with absolute paths:
-openacr output -f acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en-markdown.md
-openacr output -f acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html
+# Either all with absolute paths.
+# Or download the files and delete after.
+wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/catalog/2.5-edition-wcag-2.2-508-en.yaml
+wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/templates/openacr-markdown-0.1.0.handlebars
+wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/templates/openacr-html-0.1.0.handlebars
+openacr output -f acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en-markdown.md
+openacr output -f acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html
 ```
 
 Note the default HTML output relies on external files which we don’t want to include, and has a few bugs. See commit ae2d51b for necessary changes.
