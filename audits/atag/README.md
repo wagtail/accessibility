@@ -6,6 +6,24 @@ For Wagtail, as an authoring tool, ATAG is the most relevant standard to follow.
 
 ## Available audits
 
+### Wagtail 7.0
+
+ATAG 2.0, available in multiple formats:
+
+- [HTML – Wagtail 7.0](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_7.0.html)
+- [Markdown (Source) - Wagtail 7.0](https://github.com/wagtail/accessibility/blob/main/audits/atag/atag_wagtail_7.0.md)
+- [HTML – Wagtail 7.0, ATAG Report Tool format](https://wagtail.github.io/accessibility/audits/atag/atag_wagtail_7.0_atag-report-tool.html)
+- [JSON – Wagtail 7.0, ATAG Report Tool format](./atag_wagtail_7.0_atag-report-tool.json)
+- [WAI Authoring Tools List](https://www.w3.org/WAI/tools-list/authoring/)
+
+Here is an overview of audit findings, at the “success criteria” level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
+
+| Conformance Level | Total   | Part A  | Part B  |
+| ----------------- | ------- | ------- | ------- |
+| Pass              | 28 (+6) | 14 (+2) | 14 (+4) |
+| Fail              | 24 (-6) | 15 (-2) | 9 (-4)  |
+| Not applicable    | 13      | 4       | 9       |
+
 ### Wagtail 6.3
 
 ATAG 2.0, available in multiple formats:

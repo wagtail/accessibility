@@ -15,6 +15,26 @@ Wagtail documents the accessibility of the Wagtail admin interface with ACR / VP
 
 To view our latest report in HTML format, go to [wagtail.org/accessibility/acr/](https://wagtail.org/accessibility/acr/). All of our past reports are listed here in multiple formats.
 
+### Wagtail 7.0
+
+#### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
+
+- [HTML – Wagtail 7.0](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html)
+- [HTML (source) – Wagtail 7.0](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html)
+- [Markdown (source) – Wagtail 7.0](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en-markdown.md)
+- [YAML (source) – Wagtail 7.0](./acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.yaml)
+
+Summary table (compared with Wagtail 5.2):
+
+| Conformance Level  | Web     | Electronic Documents | Software | Authoring Tool |
+| ------------------ | ------- | -------------------- | -------- | -------------- |
+| Supports           | 70 (+2) | 63 (+1)              | 0        | 49 (+6)        |
+| Partially Supports | 3 (-2)  | 0 (-1)               | 0        | 12 (-6)        |
+| Does Not Support   | 0       | 9                    | 0        | 12             |
+| Not Applicable     | 13      | 14                   | 86       | 13             |
+
+Report based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, April 2025 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (December 2024), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.8](https://github.com/gsa/openacr).
+
 ### Wagtail 6.3
 
 #### VPAT 2.5 WCAG 2.2 and Revised Section 508 Edition
@@ -22,7 +42,7 @@ To view our latest report in HTML format, go to [wagtail.org/accessibility/acr/]
 - [HTML – Wagtail 6.3](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
 - [HTML (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
 - [Markdown (source) – Wagtail 6.3](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en-markdown.md)
-- [YAML (source) – Wagtail 6.3](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+- [YAML (source) – Wagtail 6.3](./acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.yaml)
 
 Summary table:
 
@@ -33,7 +53,7 @@ Summary table:
 | Does Not Support   | 0       | 9                    | 0        | 12             |
 | Not Applicable     | 13      | 14                   | 86       | 13             |
 
-Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, November 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (December 2024), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.8](https://github.com/gsa/openacr).
+Report based on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat) templates, November 2023 update, with the latest [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (December 2024), and [Revised Section 508](https://www.access-board.gov/ict/) (January 2017). Built with [OpenACR version 0.3.8](https://github.com/gsa/openacr).
 
 ### Wagtail 5.2
 
@@ -42,7 +62,7 @@ Report based ased on [ITI VPAT®](https://www.itic.org/policy/accessibility/vpat
 - [HTML – Wagtail 5.2](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
 - [HTML (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
 - [Markdown (source) – Wagtail 5.2](https://github.com/wagtail/accessibility/blob/main/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en-markdown.md)
-- [YAML (source) – Wagtail 5.2](./acr_wagtail_5.2_2.4-edition-wcag-2.1-508-en.yaml)
+- [YAML (source) – Wagtail 5.2](./acr_wagtail_5.2_2.5-edition-wcag-2.1-508-en.yaml)
 
 Summary table:
 
