@@ -18,11 +18,11 @@ ATAG 2.0, available in multiple formats:
 
 Here is an overview of audit findings, at the “success criteria” level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
 
-| Conformance Level | Total   | Part A  | Part B  |
-| ----------------- | ------- | ------- | ------- |
-| Pass              | 28 (+6) | 14 (+2) | 14 (+4) |
-| Fail              | 24 (-6) | 15 (-2) | 9 (-4)  |
-| Not applicable    | 13      | 4       | 9       |
+| Conformance Level | Total | Part A | Part B |
+| ----------------- | ----- | ------ | ------ |
+| Pass              | 30    | 14     | 16     |
+| Fail              | 20    | 15     | 5      |
+| Not applicable    | 13    | 4      | 9      |
 
 ### Wagtail 6.3
 
