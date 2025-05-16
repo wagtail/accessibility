@@ -54,6 +54,7 @@ Past members: Andreas Bernacca (June 2020 – January 2021), Anuja Raj (June 202
 
 ### Team reports
 
+- 2025-05-15: [Wagtail accessibility statistics for GAAD 2025](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2025/).
 - 2024-05-16: [Wagtail accessibility statistics for GAAD 2024](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2024/).
 - 2024-03-04: [Making wagtail.org more accessible](https://wagtail.org/blog/making-wagtailorg-more-accessible/)
 - 2023-12-13: [Wagtail accessibility in 2023 and beyond](https://wagtail.org/blog/wagtail-accessibility-in-2023-and-beyond/).
