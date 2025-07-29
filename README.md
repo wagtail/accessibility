@@ -6,7 +6,7 @@ This repository stores documentation and working documents relating to accessibi
 
 ## Accessibility for Wagtail users
 
-Have a look at the [accessibility page on wagtail.org](https://wagtail.org/accessibility/), the developer docs’ [Accessibility considerations](https://docs.wagtail.org/en/stable/advanced_topics/accessibility_considerations.html), and the uiser guide’s [Accessibility features](https://guide.wagtail.org/en-latest/concepts/accessibility-features/).
+Have a look at the [accessibility page on wagtail.org](https://wagtail.org/accessibility/), the developer docs’ [Accessibility considerations](https://docs.wagtail.org/en/stable/advanced_topics/accessibility_considerations.html), and the user guide’s [Accessibility features](https://guide.wagtail.org/en-latest/concepts/accessibility-features/).
 
 ## Audits
 
