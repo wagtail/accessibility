@@ -54,14 +54,18 @@ Past members: Andreas Bernacca (June 2020 – January 2021), Anuja Raj (June 202
 
 ### Team reports
 
-- 2025-05-15: [Wagtail accessibility statistics for GAAD 2025](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2025/).
-- 2025-01-26: [Our updated Accessibility Conformance Report](https://wagtail.org/blog/our-updated-accessibility-conformance-report/)
-- 2024-05-16: [Wagtail accessibility statistics for GAAD 2024](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2024/).
-- 2024-03-04: [Making wagtail.org more accessible](https://wagtail.org/blog/making-wagtailorg-more-accessible/)
-- 2023-12-13: [Wagtail accessibility in 2023 and beyond](https://wagtail.org/blog/wagtail-accessibility-in-2023-and-beyond/).
-- 2023-05-15: [Wagtail accessibility statistics for GAAD 2023](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2023/).
-- 2022-02-28: [State of Wagtail’s accessibility](https://wagtail.org/blog/state-of-wagtail-accessibility/).
-- 2021-02-24: [Accessibility team reloaded](https://wagtail.org/blog/accessibility-team-reloaded/).
+<!-- Keep this in sync with https://wagtail.org/accessibility/ -->
+
+- 2025-05-15: [Wagtail accessibility statistics for GAAD 2025](/blog/wagtail-accessibility-statistics-for-gaad-2025/)
+- 2025-03-13: [Wagtail 7.0 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html)
+- 2025-01-09: [Wagtail 6.3 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
+- 2024-05-16: [Wagtail accessibility statistics for GAAD 2024](/blog/wagtail-accessibility-statistics-for-gaad-2024/)
+- 2024-03-04: [Making wagtail.org more accessible](/blog/making-wagtailorg-more-accessible/)
+- 2023-12-13: [Wagtail accessibility in 2023 and beyond](/blog/wagtail-accessibility-in-2023-and-beyond/)
+- 2023-12-31: [Wagtail 5.2 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_5.2_2.5-edition-wcag-2.2-508-en.html)
+- 2023-05-15: [Wagtail accessibility statistics for GAAD 2023](/blog/wagtail-accessibility-statistics-for-gaad-2023/)
+- 2022-02-28: [State of Wagtail’s accessibility](/blog/state-of-wagtail-accessibility/)
+- 2021-02-24: [Accessibility team reloaded](/blog/accessibility-team-reloaded/)
 
 ## References
 
