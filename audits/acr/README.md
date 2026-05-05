@@ -98,8 +98,8 @@ Either start from an existing report, or use the [OpenACR Editor](https://acredi
 wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/catalog/2.5-edition-wcag-2.2-508-en.yaml
 wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/templates/openacr-markdown-0.1.0.handlebars
 wget https://raw.githubusercontent.com/GSA/openacr/refs/heads/main/templates/openacr-html-0.1.0.handlebars
-openacr output -f acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en-markdown.md
-openacr output -f acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html
+openacr output -f acr_wagtail_7.4_2.5-edition-wcag-2.2-508-en.yaml -t openacr-markdown-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.4_2.5-edition-wcag-2.2-508-en-markdown.md
+openacr output -f acr_wagtail_7.4_2.5-edition-wcag-2.2-508-en.yaml -t openacr-html-0.1.0.handlebars -c 2.5-edition-wcag-2.2-508-en.yaml -o ./acr_wagtail_7.4_2.5-edition-wcag-2.2-508-en.html
 ```
 
 Note the default HTML output relies on external files which we don’t want to include, and has a few bugs. See commit ae2d51b for necessary changes.
