@@ -4,13 +4,13 @@ Based on VPAT® 2.5 WCAG 2.2 and Revised Section 508 Edition
 
 ## Name of Product/Version
 
-Wagtail 7.0
+Wagtail 7.4
 
 ## Report Dates and Version
 
-- Report Date: 05/13/2025
-- Last Modified Date: 05/13/2025
-- Version: wagtail-7.0-1
+- Report Date: 05/05/2026
+- Last Modified Date: 05/05/2026
+- Version: wagtail-7.4-1
 
 ## Product Description
 
@@ -36,7 +36,7 @@ A Django content management system focused on flexibility and user experience
 
 ## Notes
 
-Testing based on https://static-wagtail-v7-0.netlify.app/admin/. This report was created based on results of an ATAG 2.0 audit (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit (https://github.com/wagtail/wagtail/discussions/11180), as well as the public record of accessibility issues identified as of December 2024.
+Testing based on https://static-wagtail-v7-4.netlify.app/admin/. This report was created based on results of an ATAG 2.0 audit (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit (https://github.com/wagtail/wagtail/discussions/11180), as well as the public record of accessibility issues identified as of December 2024.
 
 ## Evaluation Methods
 
