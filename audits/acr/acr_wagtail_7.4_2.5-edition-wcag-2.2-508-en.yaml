@@ -27,7 +27,7 @@ notes: >-
   was created based on results of an ATAG 2.0 audit
   (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit
   (https://github.com/wagtail/wagtail/discussions/11180), as well as the public
-  record of accessibility issues identified as of December 2024.
+  record of accessibility issues identified at the time of the report.
 evaluation_methods_used: >
   Auditing conducted with the WCAG-EM methodology. Specific testing tools
   employed are Accessibility Insights (Axe) and Pa11y (Axe).

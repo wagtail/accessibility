@@ -36,7 +36,7 @@ A Django content management system focused on flexibility and user experience
 
 ## Notes
 
-Testing based on https://static-wagtail-v7-4.netlify.app/admin/. This report was created based on results of an ATAG 2.0 audit (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit (https://github.com/wagtail/wagtail/discussions/11180), as well as the public record of accessibility issues identified as of December 2024.
+Testing based on https://static-wagtail-v7-4.netlify.app/admin/. This report was created based on results of an ATAG 2.0 audit (https://wagtail.org/accessibility/atag-audit/) and WCAG 2.2 audit (https://github.com/wagtail/wagtail/discussions/11180), as well as the public record of accessibility issues identified at the time of the report.
 
 ## Evaluation Methods
 
