@@ -56,6 +56,7 @@ Past members: Andreas Bernacca (June 2020 – January 2021), Anuja Raj (June 202
 
 <!-- Keep this in sync with https://wagtail.org/accessibility/ -->
 
+- 2026-05-05: [Wagtail 7.4 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_7.4_2.5-edition-wcag-2.2-508-en.html)
 - 2025-05-15: [Wagtail accessibility statistics for GAAD 2025](/blog/wagtail-accessibility-statistics-for-gaad-2025/)
 - 2025-03-13: [Wagtail 7.0 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_7.0_2.5-edition-wcag-2.2-508-en.html)
 - 2025-01-09: [Wagtail 6.3 Accessibility Conformance Report](https://wagtail.github.io/accessibility/audits/acr/acr_wagtail_6.3_2.5-edition-wcag-2.2-508-en.html)
