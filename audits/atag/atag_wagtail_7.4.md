@@ -9,26 +9,26 @@
 
 At the success criteria level as per the [W3C ATAG report tool](https://www.w3.org/WAI/atag/report-tool/), pass/fail:
 
-| Conformance Level | Total      | Part A     | Part B     |
-| ----------------- | ---------- | ---------- | ---------- |
-| Pass              | 30 (+8 🎉) | 14 (+2 🤘) | 16 (+6 🚀) |
-| Fail              | 20 (-8)    | 15 (-2)    | 5 (-8)     |
-| Not applicable    | 13         | 4          | 9          |
+| Conformance Level | Total       | Part A     | Part B     |
+| ----------------- | ----------- | ---------- | ---------- |
+| Pass              | 32 (+10 🎉) | 16 (+4 🤘) | 16 (+6 🚀) |
+| Fail              | 18 (-10)    | 13 (-4)    | 5 (-8)     |
+| Not applicable    | 13          | 4          | 9          |
 
 At the success criteria level, by [level of conformance](https://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance):
 
 | Conformance Level | Level A | Level AA | Level AAA |
 | ----------------- | ------- | -------- | --------- |
-| Pass              | 12 (+3) | 12 (+3)  | 6 (+2)    |
-| Fail              | 7 (-3)  | 7 (-2)   | 6 (-3)    |
+| Pass              | 13 (+4) | 12 (+3)  | 7 (+3)    |
+| Fail              | 6 (-4)  | 7 (-2)   | 5 (-4)    |
 | Not applicable    | 6       | 6        | 1         |
 
 At the guidelines level as per the [W3C Authoring Tools list](https://www.w3.org/WAI/tools-list/authoring/), with partial support:
 
 | Conformance Level | Total   | Part A | Part B |
 | ----------------- | ------- | ------ | ------ |
-| Pass              | 7 (+2)  | 2      | 5 (+2) |
-| Partially         | 13 (-2) | 9      | 4 (-2) |
+| Pass              | 8 (+3)  | 3      | 5 (+2) |
+| Partially         | 12 (-3) | 8      | 4 (-2) |
 | Fail              | 2       | 1      | 1      |
 | Not applicable    | 2       | 1      | 1      |
 
@@ -55,11 +55,11 @@ At the guidelines level as per the [W3C Authoring Tools list](https://www.w3.org
     - **Fail**: [A.3.1.4 Keyboard Access (Enhanced)](#a314-keyboard-access-enhanced) (Level AAA)
     - **Fail**: [A.3.1.5 Customize Keyboard Access](#a315-customize-keyboard-access) (Level AAA)
     - **Pass**: [A.3.1.6 Present Keyboard Commands](#a316-present-keyboard-commands) (Level AAA)
-  - **Partially**: [A.3.2. (For the authoring tool user interface) Provide authors with enough time](#a32-for-the-authoring-tool-user-interface-provide-authors-with-enough-time)
-    - **Fail**: [A.3.2.1 Auto-Save (Minimum)](#a321-auto-save-minimum) (Level A)
+  - **Pass**: [A.3.2. (For the authoring tool user interface) Provide authors with enough time](#a32-for-the-authoring-tool-user-interface-provide-authors-with-enough-time)
+    - **Pass**: [A.3.2.1 Auto-Save (Minimum)](#a321-auto-save-minimum) (Level A)
     - **Pass**: [A.3.2.2 Timing Adjustable](#a322-timing-adjustable) (Level A)
     - **Pass**: [A.3.2.3 Static Input Components](#a323-static-input-components) (Level A)
-    - **Fail**: [A.3.2.4 Content Edits Saved (Extended)](#a324-content-edits-saved-extended) (Level AAA)
+    - **Pass**: [A.3.2.4 Content Edits Saved (Extended)](#a324-content-edits-saved-extended) (Level AAA)
   - **Fail**: [A.3.3. (For the authoring tool user interface) Help authors avoid flashing that could cause seizures](#a33-for-the-authoring-tool-user-interface-help-authors-avoid-flashing-that-could-cause-seizures)
     - **Fail**: [A.3.3.1 Static View Option](#a331-static-view-option) (Level A)
   - **Partially**: [A.3.4. (For the authoring tool user interface) Enhance navigation and editing via content structure](#a34-for-the-authoring-tool-user-interface-enhance-navigation-and-editing-via-content-structure)
@@ -151,6 +151,10 @@ As a representation of the state of Wagtail’s WCAG 2.2 AA conformance, here is
 
 | Version                                                               | Total | [Color contrast](https://dequeuniversity.com/rules/axe/4.4/color-contrast) | [`nested-interactive`](https://www.browserstack.com/docs/accessibility/rules/wcag/nested-interactive) | [`aria-valid-attr-value`](https://accessibilityinsights.io/info-examples/web/aria-valid-attr-value/) | [`aria-input-field-name`](https://www.browserstack.com/docs/accessibility/rules/wcag/aria-input-field-name) | [Links purpose](https://dequeuniversity.com/rules/axe/4.4/identical-links-same-purpose) | [Empty heading](https://www.browserstack.com/docs/accessibility/rules/best-practice/empty-heading) | [Heading order](https://accessibility.browserstack.com/api/more-info/4.4/heading-order) | [`region`](https://accessibility.browserstack.com/api/more-info/4.4/region) | [Landmark unique](https://www.browserstack.com/docs/accessibility/rules/best-practice/landmark-unique) |
 | --------------------------------------------------------------------- | ----- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [7.4](https://static-wagtail-v7-4.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
+| [7.3](https://static-wagtail-v7-3.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
+| [7.2](https://static-wagtail-v7-2.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
+| [7.1](https://static-wagtail-v7-1.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
 | [7.0](https://static-wagtail-v7-0.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
 | [6.4](https://static-wagtail-v6-4.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
 | [6.3](https://static-wagtail-v6-3.netlify.app/admin/pages/60/edit/)   | 2     | 0                                                                          | 0                                                                                                     | 0                                                                                                    | 2                                                                                                           | 0                                                                                       | 0                                                                                                  | 0                                                                                       | 0                                                                           | 0                                                                                                      |
@@ -173,56 +177,9 @@ Suggested next steps:
 
 References:
 
-- Most recent major improvement: [Enhanced contrast admin theme](https://docs.wagtail.org/en/stable/releases/6.3.html#enhanced-contrast-admin-theme).
 - [WCAG 2.2 & ATAG 2.0 CMS admin](https://github.com/orgs/wagtail/projects/9/views/1)
-- [Living accessibility audit (last update: December 2024)](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit)
 
-Full list of 22 [currently-tracked accessibility issues](https://github.com/wagtail/wagtail/issues?q=sort%3Aupdated-desc%20is%3Aissue%20label%3AAccessibility%20label%3Atype%3ABug%20is%3Aopen) in GitHub:
-
-- [Low-contrast active menu item indicator #12644](https://github.com/wagtail/wagtail/issues/12644)
-- [Rich text ctrl + K keyboard shortcut should open the link or document tooltip #11627](https://github.com/wagtail/wagtail/issues/11627)
-- [Add comment button should move focus to the new comment when the panel is closed #11021](https://github.com/wagtail/wagtail/issues/11021)
-- [Row headers for permission forms as tables #12288](https://github.com/wagtail/wagtail/issues/12288)
-- [Status icons need alternative text #12174](https://github.com/wagtail/wagtail/issues/12174)
-- [StreamField FieldBlock / widgets labels’ missing semantic association with inputs #11179](https://github.com/wagtail/wagtail/issues/11179)
-- [Confusing Markdown rich text keyboard shortcuts announcement in screen readers #12107](https://github.com/wagtail/wagtail/issues/12107)
-- [Contrast themes / WHCM support improvements #11449](https://github.com/wagtail/wagtail/issues/11449)
-- [Admin interface must implement 3.1.2 Language of Parts for multilingual interfaces #11376](https://github.com/wagtail/wagtail/issues/11376)
-- [Admin interface must implement 3.1.2 Language of Parts for multilingual websites #11375](https://github.com/wagtail/wagtail/issues/11375)
-- [Revamp revision comparison diff styles #10576](https://github.com/wagtail/wagtail/issues/10576)
-- [Radio inputs do not correctly get associated with their parent (group) label for accessibility #10228](https://github.com/wagtail/wagtail/issues/10228)
-- [Contrast themes – Info side panel’s button links need a border #8834](https://github.com/wagtail/wagtail/issues/8834)
-- [Missing HTML widget attributes in StreamField widget rendering #10300](https://github.com/wagtail/wagtail/issues/10300)
-- [Barriers for speech recognition users #9666](https://github.com/wagtail/wagtail/issues/9666)
-- [Accessibility regression in userbar #10674](https://github.com/wagtail/wagtail/issues/10674)
-- [Page chooser should use buttons instead of links with invalid targets #5408](https://github.com/wagtail/wagtail/issues/5408)
-- [Implement focus management for chooser modals #5338](https://github.com/wagtail/wagtail/issues/5338)
-- [Accessibility and UI issues with typed table block #7646](https://github.com/wagtail/wagtail/issues/7646)
-- [Rework the admin UI’s landmark based on established best practices #5411](https://github.com/wagtail/wagtail/issues/5411)
-- [Keyboard navigation breaks with links in paragraph in Chrome on MacOS #7693](https://github.com/wagtail/wagtail/issues/7693)
-- [Datetimepicker UI component is not accessible to screen-reader and keyboard users #5325](https://github.com/wagtail/wagtail/issues/5325)
-
-There have been 19 issues fixed since the last significant ATAG 2.0 audit:
-
-- [Status tag contrast is too low #5778](https://github.com/wagtail/wagtail/issues/5778)
-- [Empty table header usage across the admin #11596](https://github.com/wagtail/wagtail/issues/11596)
-- [Draftail (rich text editor) - using cmd + left arrow to navigate to the start of the line is broken in Firefox #9366](https://github.com/wagtail/wagtail/issues/9366)
-- [Accessibility issue with 'live' link's accessible text #12611](https://github.com/wagtail/wagtail/issues/12611)
-- [Sub-menus within the main menu cannot be closed on mobile #10747](https://github.com/wagtail/wagtail/issues/10747)
-- [Making Wagtail Accessible for users with disabilities #4199](https://github.com/wagtail/wagtail/issues/4199)
-- [Action buttons are easy to miss in list views for high contrast mode users #12126](https://github.com/wagtail/wagtail/issues/12126)
-- [Minimap component needs a toggle button #12175](https://github.com/wagtail/wagtail/issues/12175)
-- [Page deletion confirmation text lacks sufficient contrast #12232](https://github.com/wagtail/wagtail/issues/12232)
-- [Synchronisation between wagtailuserbar and "Checks" admin panel. #12157](https://github.com/wagtail/wagtail/issues/12157)
-- ["Unpublished" styles in pages listings are very hard / impossible to see #5370](https://github.com/wagtail/wagtail/issues/5370)
-- [Action buttons in chooser components are cut off by overflow in 5.0 #10553](https://github.com/wagtail/wagtail/issues/10553)
-- [Empty table header found in the 'Your locked pages' dashboard section #11459](https://github.com/wagtail/wagtail/issues/11459)
-- [TableBlock is impossible to reach with the keyboard #8893](https://github.com/wagtail/wagtail/issues/8893)
-- [Chooser buttons focus colour is too dark in dark mode #10875](https://github.com/wagtail/wagtail/issues/10875)
-- [Panel anchor target sizes are too small on mobile viewports #11411](https://github.com/wagtail/wagtail/issues/11411)
-- [Page editing actions dropdown doesn’t support keyboard or screen reader navigation #7366](https://github.com/wagtail/wagtail/issues/7366)
-- [Label-visible content mismatch 'Admin' and 'Edit your account' in sidebar #11372](https://github.com/wagtail/wagtail/issues/11372)
-- [New Dialog (modal) does not visibly show a close button if there is no message #11306](https://github.com/wagtail/wagtail/issues/11306)
+View the full list of [currently-tracked accessibility issues](https://github.com/wagtail/wagtail/issues?q=sort%3Aupdated-desc%20is%3Aissue%20label%3AAccessibility%20label%3Atype%3ABug%20is%3Aopen) in GitHub.
 
 #### [A.1.2. (For the authoring tool user interface) Ensure that non-web-based functionality is accessible](https://www.w3.org/TR/ATAG20/#gl_a12)
 
@@ -252,7 +209,7 @@ See [Implementing A.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 **Fail**. For icons within the CMS, all have appropriate alt text. For CMS-managed images, Wagtail renders non-text content in nine scenarios, five of which are related to editing views and would require changes:
 
-- Fail: Image upload fields in the image edit/create form. The image’s title displays as a field next to the visuals. The title acts as alt text by default in Wagtail. This is missing a programmatic association between the title or description text, and the image.
+- Fail: Image upload fields in the image edit/create form. The image’s description displays as a field next to the visuals. This is missing a programmatic association between the description text, and the image.
   - Example: [Editing image Boston Cream Pie](https://static-wagtail-v7-4.netlify.app/admin/images/43/)
   - Current: The alt text is permanently set to the contents of the Title field on page load.
   - Proposed actions:
@@ -457,7 +414,7 @@ See [Implementing A.3.2](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 > (Level A). See [Implementing A.3.2.1](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-20150924/#sc_a321).
 
-**Fail**. Wagtail doesn’t provide auto-save functionality. For Wagtail sites, the default session time limit is 2 weeks. See [Autosave #24](https://github.com/wagtail/roadmap/issues/24) on the Wagtail roadmap.
+**Pass**. Wagtail provides auto-save functionality for pages and snippets, which are the two content types with the most demanding editing tasks. For Wagtail sites, the default session time limit is 2 weeks.
 
 ##### A.3.2.2 Timing Adjustable
 
@@ -475,7 +432,7 @@ See [Implementing A.3.2](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-2015
 
 > (Level AAA). See [Implementing A.3.2.4](http://www.w3.org/TR/2015/NOTE-IMPLEMENTING-ATAG20-20150924/#sc_a324).
 
-**Fail**. Wagtail doesn’t provide auto-save functionality. See _A.3.2.1 Auto-Save (Minimum)_. We expect the same approach to be followed for both SCs.
+**Pass**. See _A.3.2.1 Auto-Save (Minimum)_.
 
 #### [A.3.3. (For the authoring tool user interface) Help authors avoid flashing that could cause seizures](https://www.w3.org/TR/ATAG20/#gl_a33)
 
