@@ -27,21 +27,10 @@ View the [next accessibility meeting agenda](https://docs.google.com/document/d/
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://jellybeans.lol/"><img src="https://avatars.githubusercontent.com/u/1044670?v=4?s=100" width="100px;" alt="Scott Cranfill"/><br /><sub><b>Scott Cranfill</b></sub></a><br />Since June 2020</td>
       <td align="center" valign="top" width="14.28%"><a href="https://thib.me/"><img src="https://avatars.githubusercontent.com/u/877585?v=4?s=100" width="100px;" alt="Thibaud Colas"/><br /><sub><b>Thibaud Colas</b></sub></a><br />Since June 2020</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://jessemenn.com/"><img src="https://avatars.githubusercontent.com/u/1834167?v=4?s=100" width="100px;" alt="Jesse Menn"/><br /><sub><b>Jesse Menn</b></sub></a><br />Since Feb 2021</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Stormheg"><img src="https://avatars.githubusercontent.com/u/13856515?v=4?s=100" width="100px;" alt="Storm Heg"/><br /><sub><b>Storm Heg</b></sub></a><br />Since Feb 2021</td>
       <td align="center" valign="top" width="14.28%"><a href="https://saptaks.website/"><img src="https://avatars.githubusercontent.com/u/9530293?v=4?s=100" width="100px;" alt="Saptak S"/><br /><sub><b>Saptak S</b></sub></a><br />Since July 2021</td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/albinazs"><img src="https://avatars.githubusercontent.com/u/51043550?v=4?s=100" width="100px;" alt="Albina"/><br /><sub><b>Albina</b></sub></a><br />Since Dec 2022</td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://laymonage.com/"><img src="https://avatars.githubusercontent.com/u/6379424?v=4?s=100" width="100px;" alt="sag​e"/><br /><sub><b>sag​e</b></sub></a><br />Since Dec 2022</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.behance.net/toriannenna"><img src="https://avatars.githubusercontent.com/u/82820329?v=4?s=100" width="100px;" alt="Victoria Ottah"/><br /><sub><b>Victoria Ottah</b></sub></a><br />Since Dec 2023</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://linktr.ee/damilola_oladele"><img src="https://avatars.githubusercontent.com/u/98895460?v=4?s=100" width="100px;" alt="Damilola Oladele"/><br /><sub><b>Damilola Oladele</b></sub></a><br />Since Dec 2023</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/waju-ire"><img src="https://avatars.githubusercontent.com/u/81704192?v=4?s=100" width="100px;" alt="Ahmed Olanrewaju Olaitan"/><br /><sub><b>Ahmed Olanrewaju Olaitan</b></sub></a><br />Since Dec 2023</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shyusu4"><img src="https://avatars.githubusercontent.com/u/106587342?v=4?s=100" width="100px;" alt="Sherry"/><br /><sub><b>Sherry</b></sub></a><br />Since Dec 2023</td>
-      <td align="center" valign="top" width="14.28%"><a href="https://gitlab.com/Morsey187"><img src="https://avatars.githubusercontent.com/u/35934884?v=4?s=100" width="100px;" alt="Ben Morse"/><br /><sub><b>Ben Morse</b></sub></a><br />Since Dec 2023</td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yigakpoa"><img src="https://avatars.githubusercontent.com/u/99066793?v=4?s=100" width="100px;" alt="Yigakpoa Samuel"/><br /><sub><b>Yigakpoa Samuel</b></sub></a><br />Since Jan 2024</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/marteki"><img src="https://avatars.githubusercontent.com/u/1183435?v=4?s=100" width="100px;" alt="Naa Marteki Reed"/><br /><sub><b>Naa Marteki Reed</b></sub></a><br />Since Nov 2026</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Raghaddahi"><img src="https://avatars.githubusercontent.com/u/186389490?v=4?s=100" width="100px;" alt="Raghad Dahi"/><br /><sub><b>Raghad Dahi</b></sub></a><br />Since Nov 2026</td>
     </tr>
   </tbody>
 </table>
@@ -50,7 +39,7 @@ View the [next accessibility meeting agenda](https://docs.google.com/document/d/
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Past members: Andreas Bernacca (June 2020 – January 2021), Anuja Raj (June 2022 – September 2022), Kyle Bayliss (February 2021 – February 2023), Joshua Munn (December 2022 – February 2023), Jane Hughes (June 2022 - September 2024)
+Past members: Andreas Bernacca (June 2020 – January 2021), Kyle Bayliss (February 2021 – February 2023), Anuja Raj (June 2022 – September 2022), Jane Hughes (June 2022 – September 2024), Joshua Munn (December 2022 – February 2023), sage (December 2022 – November 2024), Victoria Ottah (December 2023 – November 2024), Damilola Oladele (December 2023 – November 2024), Ahmed Olanrewaju Olaitan (December 2023 – November 2024), Sherry (December 2023 – November 2024), Ben Morse (December 2023 – November 2024), Yigakpoa Samuel (January 2024 – November 2024)
 
 ### Team reports
 
