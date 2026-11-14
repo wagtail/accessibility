@@ -39,7 +39,7 @@ View the [next accessibility meeting agenda](https://docs.google.com/document/d/
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Past members: Andreas Bernacca (June 2020 – January 2021), Kyle Bayliss (February 2021 – February 2023), Anuja Raj (June 2022 – September 2022), Jane Hughes (June 2022 – September 2024), Joshua Munn (December 2022 – February 2023), sage (December 2022 – November 2024), Victoria Ottah (December 2023 – November 2024), Damilola Oladele (December 2023 – November 2024), Ahmed Olanrewaju Olaitan (December 2023 – November 2024), Sherry (December 2023 – November 2024), Ben Morse (December 2023 – November 2024), Yigakpoa Samuel (January 2024 – November 2024)
+Past members: Andreas Bernacca (2020 – 2021), Kyle Bayliss (2021 – 2023), Anuja Raj (2022), Jane Hughes (2022 – 2024), Joshua Munn (2022 – 2023), sage (2022 – 2024), Victoria Ottah (2023 – 2024), Damilola Oladele (2023 – 2024), Ahmed Olanrewaju Olaitan (2023 – 2024), Sherry (2023 – 2024), Ben Morse (2023 – 2024), Yigakpoa Samuel (2024)
 
 ### Team reports
 
