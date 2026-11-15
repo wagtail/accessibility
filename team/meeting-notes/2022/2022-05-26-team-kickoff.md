@@ -1,0 +1,29 @@
+# 2022-05-26 – Team kickoff
+
+- Welcome & introductions
+  - Jane! Front-end developer & accessibility expert, Torchbox. GSoC project support
+  - Jesse. Syracuse University. Get to work on open source, hoping to keep up with accessibility work
+  - Scott. GSoC project
+  - Saptak. Working with Wagtail a lot. Helps
+- Intro to current accessibility efforts
+- How the team works
+  - Initial plan: open membership, 45-min chats every two weeks to provide feedback and take actions.
+    - One week always the same time. Jane: not fridays. Saptak: thursdays
+    - 45min every two weeks around this time Thursdays
+  - 6months membership
+- What do we all want to achieve with the accessibility team?
+  - 🥭 Jesse, 🍎 Saptak, 🍐 Jane, 🍒 Scott, 🍋 Thibaud
+  - GSoC Contrast themes / Windows High Contrast Mode support 🍒🍐🍎🍋🥭
+    - Brief discussion so far. Kickoff / intros soon
+    - Open questions on structuring the work & schedule
+    - Anuja part of our team
+    - Scope: extend towards dark mode, other color themes (under user control within the CMS)
+    - Jesse checking with colleagues (can’t all ban Windows!)
+    - Saptak has experience. Specific site with theme selector ([Max Böck](https://mxb.dev/))
+  - Sa11y integration 🍎🍐🍋🥭
+  - ATAG 2.0 conformance 🍎🍐🥭
+  - Benchmarking / HTTP Archive’s Web Almanac 🍋
+    - Accessibility chapter Saptak authoring Thibaud analyst-ing
+    - See charts like the ones in the Almanac improve
+  - SVG icons 🍒
+  - Page editor project support 🍒🍎

@@ -1,0 +1,51 @@
+# 2021-03-19 -- new team chat
+
+Attendees: Thibaud, Scott, Storm, Kyle, Jesse
+
+- Welcome & introductions: Thibaud, Scott, Storm, Kyle, Jesse
+- Intro to current accessibility effort
+  - [Wagtail admin WCAG2.1 AA](https://github.com/wagtail/wagtail/projects/5), [RFC](https://github.com/wagtail/rfcs/pull/37)
+  - [WCAG2.1 AA for sites](https://github.com/wagtail/wagtail/projects/10)
+  - And docs, one-off projects, etc.
+- How the team works
+  - Initial plan: open membership, 45-min chats every two weeks to provide feedback and take actions.
+  - 6months membership
+  - Friday morning, afternoon to evening Europe/Africa
+- What do we all want to achieve with the accessibility team?
+- Thibaud
+  - Another audit of Wagtail
+  - Automated accessibility checks as part of publishing pages
+  - [SVG icons rework #6107](https://github.com/wagtail/wagtail/issues/6107)
+- Scott
+  - [SVG icons rework #6107](https://github.com/wagtail/wagtail/issues/6107)
+  - [Contextual alt text RFC #51](https://github.com/wagtail/rfcs/pull/51)
+  - aria-label on links (give more helpful link text to screen reader users)
+    - [Feature: ability to set links as "nofollow" rel via the WYSIWG editor's link chooser #4474](https://github.com/wagtail/wagtail/issues/4474)
+  - Being able to use the same link chooser outside of rich text fields
+    - [Single interface for choosing links to anything #381](https://github.com/wagtail/wagtail/issues/381)
+- Storm
+  - [Wagtail userbar is not accessible - Issue #6108](https://github.com/wagtail/wagtail/issues/6108)
+  - Review existing accessibility related pull requests.
+  - [SVG icons rework #6107](https://github.com/wagtail/wagtail/issues/6107)
+  - ["Unpublished" styles in pages listings are very hard / impossible to see - Issue #5370](https://github.com/wagtail/wagtail/issues/5370)
+  - [Implement focus management for chooser modals - Issue #5338](https://github.com/wagtail/wagtail/issues/5338)
+- Kyle
+  - All buttons visible all the time
+  - Incorporated as Wagtail customisations in previous agency
+  - Look into this further since we know there are people who struggle with this
+  - Get up to speed with Wagtail contributions!
+  - Read through open issues & raise anything missing
+- Jesse
+  - Getting up to speed with issues and contributions
+- User testing with users of assistive technology
+  - Would be good in addition to doing an audit of our own
+  - Reach out to Wagtail contributors to use assistive tech
+  - Share via Django Newsletter?
+  - Share in accessibility communities?
+  - Could reach out to [Fable](https://makeitfable.com/)
+  - Jesse check user testing plan / results from Syracuse University's upcoming Wagtail build
+- Another audit
+  - Has Wagtail ever been professionally audited?
+    - Outline steps to get a more professional audit?
+    - Crowdfund :)?
+- Jesse check with coworkers for interest in accessibility / Wagtail contributions

@@ -1,0 +1,90 @@
+# 2023-12-01 – Team kickoff
+
+- Welcome & introductions
+  - Thibaud – Wagtail accessibility, Django accessibility
+    - DSF board director 💥
+  - Albina – our Outreachy intern working on the accessibility checker
+    - Working at Torchbox on accessibility audits, other things
+    - Upcoming: Outreachy project mentoring
+  - Ben – Torchbox, Wagtail _AI_
+    - Keen to do more open source contributions!
+  - Sage – Torchbox, Wagtail core team, Outreachy mentor last year
+    - Current work: Universal listings, investigating aria-label
+    - Having fun with aria-label and aria-labelledby
+  - Storm – from the Netherlands. Contractor working on Wagtail projects
+    - Ex Torchbox intern four years ago. Core team since 2021
+  - Saptak – Contractor, currently working with Freedom of the Press Foundation
+    - OSS maintainer – A11Y Project
+    - HTTP Archive Web Almanac Accessibility chapter
+  - Scott Cranfill – JPL, Wagtail core team 2020, accessibility team too
+    - Help Wagtail users build more accessible websites
+  - Victoria!
+- Intro to current accessibility efforts – last 12 months
+  - **Wagtail 4.2**: [Accessibility checker integration](https://docs.wagtail.org/en/stable/releases/4.2.html)
+  - **Wagtail 5.0**: [Accessibility checker improvements](https://docs.wagtail.org/en/stable/releases/5.0.html#accessibility-checker-improvements), [Dark mode](https://docs.wagtail.org/en/stable/releases/5.0.html#dark-mode)
+  - **GAAD 2023: **[Wagtail accessibility statistics for GAAD 2023](https://wagtail.org/blog/wagtail-accessibility-statistics-for-gaad-2023/)
+  - **Wagtail 5.1**: Accessible “More” dropdown buttons
+  - **Wagtail 5.2**: No more invisible buttons
+  - **October**: Scott @ DjangoCon US: [Best Practices for Making a Wagtail Website as Accessible as Possible](https://github.com/Scotchester/djangocon-wagtail-accessibility)
+  - **November**: [RFC 89 ATAG audit](https://github.com/wagtail/rfcs/pull/89)
+  - **December**: [Wagtail CMS Accessibility Webinar](https://wagtail.org/blog/wagtail-cms-accessibility-webinar/) by Scott, Thibaud, Albina
+  - Wagtail 6.0 – accessibility
+    - In progress – [Accessibility manual audit - WCAG 2.2 #63](https://github.com/wagtail/roadmap/issues/63)
+    - In progress – [Accessibility checker in page editor #66](https://github.com/wagtail/roadmap/issues/66)
+    - Starting next week – Outreachy: [Accessibility features documentation #69](https://github.com/wagtail/roadmap/issues/69)
+    - Outreachy: [Wagtail.org website accessibility #68](https://github.com/wagtail/roadmap/issues/68)
+  - Wagtail 6.0 – UI
+    - [Universal listings improvements #62](https://github.com/wagtail/roadmap/issues/62)
+    - [Polish dark mode #65](https://github.com/wagtail/roadmap/issues/65)
+  - Wagtail 6.1: [Admin interface accessibility improvements #71](https://github.com/wagtail/roadmap/issues/71)
+  - Beyond
+    - [Looking for sponsorship – Accessibility checks for site administrators](https://wagtail.org/blog/looking-for-sponsorship-accessibility-checks-for-site-administrators/)
+    - [Fully accessible Wagtail admin interface #27](https://github.com/wagtail/roadmap/issues/27)
+    - PyCon US 2024 poster
+    - FOSDEM 2024
+- How the team works
+  - The plan: open membership, 45-min chats every one or two weeks to provide feedback and take actions.
+    - Every week or every **two weeks**?
+    - Always the same time? Any specific days to avoid? another Doodle?
+  - 6 months membership
+  - How to contribute as a designer?
+    - Lots of ways!
+    - Example: [Revamp revision comparison diff styles](https://github.com/wagtail/wagtail/issues/10576)
+    - Lots of issues in Wagtail that are blocked due to a lack of design expertise / designer availability
+      - Ben Enright our designer isn’t always available
+- What do we all want to achieve with the accessibility team?
+
+## **Team plans**
+
+Votes: 🥭 Jesse, 🍎 Saptak, 🍐 Jane, 🍒 Scott, 🍋 Thibaud, 🍇 Sage, 🍊Albina, 🍈 Storm 🍍Ben M, 🍓 Victoria,
+
+- Triage “design needed” accessibility contributions 🍒🍋🍍🍊🍓🍎
+- Outreachy: wagtail.org website accessibility 🍎🍊🍈🍋🍇🍓
+  - Accessibility audits for docs.wagtail.org and guide.wagtail.org🍎🍈🍓
+- Work with people using assistive technology to discover areas of improvement 🍎🍋 🍒🍇🍓
+  - Or maybe testimonials for Wagtail.org? Wagtail is an accessible CMS!
+  - +1 to user testing with assistive tech users
+- Accessible image model by default (current implementation uses filename as title / alt text ) 🍎🍈 🍒🍍🍓
+  - ❤️Storm w/ Saptak helping 💚
+  - Approve and implement [RFC 51: Contextual Alt Text](https://github.com/wagtail/rfcs/pull/51) 🍒
+  - Progress is progress (is progress)
+    - Anything that’s not using the default title (as-is) is better than status quo
+  - Custom image model by default?
+  - Power of defaults
+- Support Django’s accessibility team with their direction 🍒🍇🍎🍈
+- Audit Wagtail design system for accessible contrast as measured by [the new APCA contrast model](https://www.myndex.com/APCA/) (Possibly too early if we’re concerned about it not being an official part of the standard yet?) 🍈🍊🍇🍓
+  - (Saptak) I would argue it’s little too early since it’s still not fully ready
+  - (Storm) could still be a fun little project, how does Wagtail do with this model?
+- Improve how we automatically test Wagtail’s accessibility (add more tests, add better tooling, etc.) to prevent accessibility regressions 🍋🍈🍇 🍒
+- Meetup/conference talks related to accessibility work across wagtail 🍎 🍒🍇🍓
+- Update Rich Text link modal to include aria-label field 🍋 🍒🍎
+- Triage “community management & marketing” accessibility contributions🍋🍓
+- VPAT (Voluntary Product Accessibility Template, primarily a Section 508 thing) for Wagtail🍋
+- Propose adding a stock Heading Block to Wagtail core, which can implement validation for not skipping levels 🍒
+- High-contrast light and dark themes for Wagtail🍋🍊🍓🍍
+- Outreachy: accessibility features documentation 🍋 🍒🍓
+- Help us look for sponsorships to fund more accessibility checker improvements
+- ATAG audit review 🍎🍍🍋
+- Updated audit for new WCAG 2.2 rules (also updating the accessibility statement maybe to include that?)
+  - (Albina) is it for Wagtail CMS?🍊🍎
+- Wagtail websites’ accessibility benchmarking (statistics for GAAD 2024)
